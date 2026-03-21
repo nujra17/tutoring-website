@@ -1,1 +1,2581 @@
-hello
+<!-- VCE English Tutor - Home -->
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#0f49bd", // Professional Navy
+                        "accent": "#d4af37",  // Gold for "Perfect 50" theme
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#101622",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<title>VCE English Mastery | Perfect 50 Tutor</title>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100">
+<div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+<!-- Navigation Bar -->
+<header class="sticky top-0 z-50 w-full border-b border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-background-dark/80 backdrop-blur-md">
+<div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+<div class="flex items-center gap-2">
+<div class="flex h-10 w-10 items-center justify-center rounded-lg bg-primary text-white">
+<span class="material-symbols-outlined">school</span>
+</div>
+<span class="text-xl font-bold tracking-tight text-primary">VCE English Mastery</span>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#about">About</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#notes">Study Notes</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#referrals">Referrals</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#contact">Contact</a>
+</nav>
+<button class="rounded-lg bg-primary px-5 py-2.5 text-sm font-bold text-white shadow-lg shadow-primary/20 hover:bg-primary/90 transition-all">
+                    Get Started
+                </button>
+</div>
+</header>
+<!-- Hero Section -->
+<section class="relative px-6 py-12 md:py-24 lg:px-20">
+<div class="mx-auto max-w-7xl">
+<div class="grid items-center gap-12 lg:grid-cols-2">
+<div class="flex flex-col gap-8">
+<div class="inline-flex items-center gap-2 rounded-full bg-accent/10 px-4 py-1 text-sm font-bold text-accent">
+<span class="material-symbols-outlined text-sm">stars</span>
+                            Premier's Award Winner - Perfect 50 Scorer
+                        </div>
+<h1 class="text-5xl font-black leading-[1.1] tracking-tight md:text-7xl">
+                            Master VCE English <br/>
+<span class="text-primary">With a Perfect 50 Scorer</span>
+</h1>
+<p class="max-w-xl text-lg leading-relaxed text-slate-600 dark:text-slate-400">
+                            Unlock your high-achieving potential and secure your dream ATAR with strategic, personalized tutoring from one of Victoria's top English students.
+                        </p>
+<div class="flex flex-wrap gap-4">
+<button class="flex h-14 items-center justify-center rounded-xl bg-primary px-8 text-lg font-bold text-white transition-all hover:scale-105">
+                                Book a Trial Lesson
+                            </button>
+<button class="flex h-14 items-center justify-center rounded-xl border-2 border-slate-200 dark:border-slate-800 px-8 text-lg font-bold transition-all hover:bg-slate-50 dark:hover:bg-slate-800">
+                                View Free Resources
+                            </button>
+</div>
+</div>
+<div class="relative">
+<div class="absolute -inset-4 rounded-3xl bg-gradient-to-tr from-accent/20 to-primary/20 blur-2xl"></div>
+<div class="relative aspect-[4/5] overflow-hidden rounded-3xl border-8 border-white dark:border-slate-800 bg-slate-200 shadow-2xl">
+<img alt="Professional Tutor Portrait" class="h-full w-full object-cover" data-alt="Professional young male tutor in smart casual attire" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC_srK7p2J7Re_9UiKkdz_wOyz1DlILeICbtDUHGnuhF8MtW9FqEZELNEdi_GF0gJ2faOXiSyQHVmQWX5p8TQ_w5VtQ1_ea3-PlkkqyxOrwwF16Y5KXyfTD9dd6iP3TGlfMw2aXJ6QCwOl9SnqN98p9yMlIPafI2NRQmT1ZNhbMWIZ67bVgOlEC7V4Wy7HuiK2eT2pZbCOUn9wDlSQlogDaT88xYChRHuwapB6xUSgCnIqfme0TlQZCvTbBYyfQf9ZWs0J0W5fA-Xk"/>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Statistics Section -->
+<section class="bg-primary py-16 text-white">
+<div class="mx-auto max-w-7xl px-6">
+<div class="grid grid-cols-2 gap-8 md:grid-cols-4">
+<div class="text-center">
+<div class="text-4xl font-black text-accent">50</div>
+<div class="mt-2 text-sm font-medium uppercase tracking-widest text-white/70">Raw Study Score</div>
+</div>
+<div class="text-center">
+<div class="text-4xl font-black text-accent">100+</div>
+<div class="mt-2 text-sm font-medium uppercase tracking-widest text-white/70">Students Helped</div>
+</div>
+<div class="text-center">
+<div class="text-4xl font-black text-accent">45+</div>
+<div class="mt-2 text-sm font-medium uppercase tracking-widest text-white/70">Avg. Student Score</div>
+</div>
+<div class="text-center">
+<div class="text-4xl font-black text-accent">99.95</div>
+<div class="mt-2 text-sm font-medium uppercase tracking-widest text-white/70">ATAR Achieved</div>
+</div>
+</div>
+</div>
+</section>
+<!-- About Section -->
+<section class="py-24" id="about">
+<div class="mx-auto max-w-7xl px-6">
+<div class="mb-16 text-center">
+<h2 class="text-3xl font-black tracking-tight md:text-5xl">Your Path to a 40+ Score</h2>
+<p class="mt-4 text-lg text-slate-600 dark:text-slate-400">Strategic tutoring that focuses on high-yield exam techniques.</p>
+</div>
+<div class="grid gap-8 md:grid-cols-3">
+<div class="group rounded-2xl bg-white dark:bg-slate-900 p-8 shadow-sm transition-all hover:shadow-xl">
+<div class="mb-6 flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary">
+<span class="material-symbols-outlined">edit_note</span>
+</div>
+<h3 class="mb-3 text-xl font-bold">Essay Engineering</h3>
+<p class="text-slate-600 dark:text-slate-400">Learn the exact structures and vocabulary that examiners look for in Section A and B.</p>
+</div>
+<div class="group rounded-2xl bg-white dark:bg-slate-900 p-8 shadow-sm transition-all hover:shadow-xl">
+<div class="mb-6 flex h-12 w-12 items-center justify-center rounded-lg bg-accent/10 text-accent">
+<span class="material-symbols-outlined">psychology</span>
+</div>
+<h3 class="mb-3 text-xl font-bold">Analysis Frameworks</h3>
+<p class="text-slate-600 dark:text-slate-400">Master the art of Argument Analysis with templates designed for speed and depth.</p>
+</div>
+<div class="group rounded-2xl bg-white dark:bg-slate-900 p-8 shadow-sm transition-all hover:shadow-xl">
+<div class="mb-6 flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary">
+<span class="material-symbols-outlined">timer</span>
+</div>
+<h3 class="mb-3 text-xl font-bold">Exam Management</h3>
+<p class="text-slate-600 dark:text-slate-400">Time-tested strategies for planning three high-quality essays within the three-hour limit.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Study Notes (Premium) Section -->
+<section class="bg-slate-50 dark:bg-slate-950 py-24" id="notes">
+<div class="mx-auto max-w-7xl px-6">
+<div class="flex flex-col items-start justify-between gap-8 md:flex-row md:items-center">
+<div>
+<span class="text-sm font-bold uppercase tracking-widest text-accent">Premium Resources</span>
+<h2 class="mt-2 text-4xl font-black tracking-tight">VCE Study Notes Vault</h2>
+</div>
+<button class="rounded-xl border-2 border-primary px-6 py-3 font-bold text-primary hover:bg-primary hover:text-white transition-all">
+                        Browse All Notes
+                    </button>
+</div>
+<div class="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+<!-- Note Card 1 -->
+<div class="group relative overflow-hidden rounded-2xl bg-white dark:bg-slate-900 shadow-sm transition-all hover:-translate-y-1">
+<div class="aspect-[3/2] bg-slate-200 dark:bg-slate-800">
+<img alt="Sample Essay Preview" class="h-full w-full object-cover opacity-80" data-alt="A stack of neatly written study notes and books" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCXqtauPt31kUTmTgaDsv8RHjcFlxazKJeWDE-0iuR8yTyq0hk60PzIu6yd7dQ2k8NMUmHfZzbFDFLZYXvjRSe0iFSgl-9he5zkZiIhUwH9lo_nRTx2FWJNwHqQ1f_3rpZtRTRKsHgpbO7ompsGwPEDuamheJR3pOarMyUFCUkRZjAJjZduN-cTsnJUM_vZnAuqws_a4St9S0HSOvY2keUtNorKty1YkfkUzxDwGsqpIPHuSyaz0QiH84_bFNrBmmmWYu6NVrW8uFw"/>
+</div>
+<div class="p-5">
+<div class="mb-2 flex items-center justify-between">
+<span class="text-xs font-bold text-primary uppercase">Section A</span>
+<span class="rounded-full bg-accent px-2 py-0.5 text-[10px] font-bold text-white uppercase">Premium</span>
+</div>
+<h4 class="font-bold">Text Response Guide</h4>
+<p class="mt-2 text-sm text-slate-500">20+ high-scoring sample paragraphs for key texts.</p>
+</div>
+</div>
+<!-- Note Card 2 -->
+<div class="group relative overflow-hidden rounded-2xl bg-white dark:bg-slate-900 shadow-sm transition-all hover:-translate-y-1">
+<div class="aspect-[3/2] bg-slate-200 dark:bg-slate-800">
+<img alt="Vocabulary List" class="h-full w-full object-cover opacity-80" data-alt="Close up of a bookshelf with classic literature" src="https://lh3.googleusercontent.com/aida-public/AB6AXuALfy8hClfnDC5UtVze6vS-Ei8PW5osErSI_djM_VPDwENA6uSu2m4zwEOwSWYN33RCfMb4FZ6SuA1XiV5tn0YP79okldzuKJpgZdXE3VX_CcWsOZh7WjwJexIpV1fjHby8Sw4HVHron-92mUyRG4bQtsF6IfU9ayuT6xa5RUCL748BKBTtSSyZ1ZlO7RrMyflL26TJ_BIB7_6ey6FXTC34nUGyzajmReUfxyt-UcQtvk73fKChSYR2t5yCHlFh5YSoB5zlMsdvPGs"/>
+</div>
+<div class="p-5">
+<div class="mb-2 flex items-center justify-between">
+<span class="text-xs font-bold text-primary uppercase">Vocabulary</span>
+<span class="rounded-full bg-accent px-2 py-0.5 text-[10px] font-bold text-white uppercase">Premium</span>
+</div>
+<h4 class="font-bold">Lexical Bank 2.0</h4>
+<p class="mt-2 text-sm text-slate-500">Elevated vocabulary specifically curated for English analysis.</p>
+</div>
+</div>
+<!-- Note Card 3 -->
+<div class="group relative overflow-hidden rounded-2xl bg-white dark:bg-slate-900 shadow-sm transition-all hover:-translate-y-1">
+<div class="aspect-[3/2] bg-slate-200 dark:bg-slate-800">
+<img alt="Argument Analysis" class="h-full w-full object-cover opacity-80" data-alt="Notebook showing detailed flowcharts and text analysis" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDofmy66iUhNMDm4XFkY13hToCjkwzBmg2g9YWG3hIg7pCt_nba9_wDGIH6OpkZoCjSALEUVnnjF2tqAjT7vlHLfzlxwkJp3Uq29QC-3xbVKDmmFCTebHnck25gRNkdl_mRlJ_Zlo0HsCvsHPkO37To0bhwtQCm192GQgbzY4hGagteUTRZuq9Fta3xYxGg19noOc2pLzDke0vqfQRuGyRNx-bt-3M5NbPnHZV2LI0K1hP8PcFTezLvyQaS8YAjO9ZfKFU2h_l9IBc"/>
+</div>
+<div class="p-5">
+<div class="mb-2 flex items-center justify-between">
+<span class="text-xs font-bold text-primary uppercase">Section C</span>
+<span class="rounded-full bg-slate-200 dark:bg-slate-700 px-2 py-0.5 text-[10px] font-bold text-slate-600 dark:text-slate-300 uppercase">Free Sample</span>
+</div>
+<h4 class="font-bold">AA Flowchart</h4>
+<p class="mt-2 text-sm text-slate-500">The 5-step process for mapping any persuasive text.</p>
+</div>
+</div>
+<!-- Note Card 4 -->
+<div class="group relative overflow-hidden rounded-2xl bg-white dark:bg-slate-900 shadow-sm transition-all hover:-translate-y-1">
+<div class="aspect-[3/2] bg-slate-200 dark:bg-slate-800">
+<img alt="Exam Strategies" class="h-full w-full object-cover opacity-80" data-alt="Calendar and planner with study schedules" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCEYqCXkyAc3v18-XakPwoULsJWPGlPk4KDJBfJM9uZ2UCUGvczoLvOwXceZQt8V7RVGgmaWk0OfHQSo9FypAh0eqWaeJBZEkMJOUgPQBUDc1eGHuEFO_M1n0bHnw-Zp7rE13IJrVJcOcYumeb4A2ClzXuC7EAO3qFzdP6_m5dx-xkCKjgEcDRJMmjVOoUEdf6MnhhYO3qY3p_l3XcebwRHtbeNxDRQgxc46_rBzjV7sOtqiToIK3OqjJlwRrZXTZPmNB1_8puEVjc"/>
+</div>
+<div class="p-5">
+<div class="mb-2 flex items-center justify-between">
+<span class="text-xs font-bold text-primary uppercase">Exam Prep</span>
+<span class="rounded-full bg-accent px-2 py-0.5 text-[10px] font-bold text-white uppercase">Premium</span>
+</div>
+<h4 class="font-bold">Exam Checklist</h4>
+<p class="mt-2 text-sm text-slate-500">The final 48-hour routine used for a 50 study score.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Student Referrals Section -->
+<section class="py-24" id="referrals">
+<div class="mx-auto max-w-7xl px-6">
+<div class="mb-16 text-center">
+<h2 class="text-3xl font-black tracking-tight md:text-5xl">What Students Say</h2>
+</div>
+<div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+<div class="rounded-2xl border border-slate-200 dark:border-slate-800 p-8">
+<div class="flex gap-1 text-accent">
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+</div>
+<p class="mt-6 italic text-slate-600 dark:text-slate-400">"My score went from a predicted 32 to a raw 46. The essay feedback was incredibly detailed and really helped me understand what I was missing."</p>
+<div class="mt-8 flex items-center gap-4">
+<div class="h-12 w-12 rounded-full bg-slate-200"></div>
+<div>
+<h5 class="font-bold italic">Sarah M.</h5>
+<p class="text-xs text-slate-500">Class of 2023</p>
+</div>
+</div>
+</div>
+<div class="rounded-2xl border border-slate-200 dark:border-slate-800 p-8">
+<div class="flex gap-1 text-accent">
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+</div>
+<p class="mt-6 italic text-slate-600 dark:text-slate-400">"The Argument Analysis framework is a game changer. I used to struggle with timing, but now I can finish a full analysis in 50 minutes."</p>
+<div class="mt-8 flex items-center gap-4">
+<div class="h-12 w-12 rounded-full bg-slate-200"></div>
+<div>
+<h5 class="font-bold italic">James T.</h5>
+<p class="text-xs text-slate-500">Class of 2023</p>
+</div>
+</div>
+</div>
+<div class="rounded-2xl border border-slate-200 dark:border-slate-800 p-8">
+<div class="flex gap-1 text-accent">
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+</div>
+<p class="mt-6 italic text-slate-600 dark:text-slate-400">"Learning from a 50 scorer made such a difference. They knew exactly how to tweak my writing to impress the examiners."</p>
+<div class="mt-8 flex items-center gap-4">
+<div class="h-12 w-12 rounded-full bg-slate-200"></div>
+<div>
+<h5 class="font-bold italic">Chloe L.</h5>
+<p class="text-xs text-slate-500">Class of 2023</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="py-24 px-6" id="contact">
+<div class="mx-auto max-w-5xl overflow-hidden rounded-[2rem] bg-primary px-8 py-16 text-center text-white md:px-16">
+<h2 class="text-4xl font-black md:text-5xl">Ready to Aim for Your Own 50?</h2>
+<p class="mx-auto mt-6 max-w-2xl text-lg text-white/80">Limited spots available for the upcoming semester. Book your diagnostic session today.</p>
+<div class="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
+<button class="h-14 w-full rounded-xl bg-white px-8 text-lg font-bold text-primary sm:w-auto hover:bg-slate-100 transition-colors">
+                        Book Your Free Consultation
+                    </button>
+<button class="h-14 w-full rounded-xl border-2 border-white/20 px-8 text-lg font-bold text-white sm:w-auto hover:bg-white/10 transition-colors">
+                        View Pricing
+                    </button>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-background-dark py-12">
+<div class="mx-auto max-w-7xl px-6">
+<div class="flex flex-col items-center justify-between gap-8 md:flex-row">
+<div class="flex items-center gap-2">
+<div class="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-white">
+<span class="material-symbols-outlined text-sm">school</span>
+</div>
+<span class="text-lg font-bold text-primary">VCE English Mastery</span>
+</div>
+<div class="flex gap-8 text-sm font-medium text-slate-500">
+<a class="hover:text-primary" href="#">Privacy Policy</a>
+<a class="hover:text-primary" href="#">Terms of Service</a>
+<a class="hover:text-primary" href="#">FAQ</a>
+</div>
+<div class="flex gap-4">
+<a class="flex h-10 w-10 items-center justify-center rounded-full bg-slate-100 dark:bg-slate-800 hover:bg-primary/10 hover:text-primary transition-all" href="#">
+<span class="material-symbols-outlined">mail</span>
+</a>
+<a class="flex h-10 w-10 items-center justify-center rounded-full bg-slate-100 dark:bg-slate-800 hover:bg-primary/10 hover:text-primary transition-all" href="#">
+<span class="material-symbols-outlined">group</span>
+</a>
+</div>
+</div>
+<div class="mt-12 text-center text-xs text-slate-400">
+                    © 2024 VCE English Mastery. Designed for high achievers.
+                </div>
+</div>
+</footer>
+</div>
+</body></html>
+
+<!-- Home Page - Deep Emerald Theme -->
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#1754cf", 
+                        "accent": "#10b981",  
+                        "background-light": "#f8fafc",
+                        "background-dark": "#0f172a",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.5rem", "lg": "0.75rem", "xl": "1rem", "full": "9999px"},
+                },
+            },
+        }</script>
+<title>VCE English Mastery | Perfect 50 Tutor</title>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100">
+<div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+<!-- Navigation Bar -->
+<header class="sticky top-0 z-50 w-full border-b border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-background-dark/80 backdrop-blur-md">
+<div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+<div class="flex items-center gap-2">
+<div class="flex h-10 w-10 items-center justify-center rounded-lg bg-primary text-white">
+<span class="material-symbols-outlined">school</span>
+</div>
+<span class="text-xl font-bold tracking-tight text-primary">VCE English Mastery</span>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#about">About</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#notes">Study Notes</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#referrals">Referrals</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#contact">Contact</a>
+</nav>
+<button class="rounded-lg bg-primary px-5 py-2.5 text-sm font-bold text-white shadow-lg shadow-primary/20 hover:bg-primary/90 transition-all">
+                    Get Started
+                </button>
+</div>
+</header>
+<!-- Hero Section -->
+<section class="relative px-6 py-12 md:py-24 lg:px-20">
+<div class="mx-auto max-w-7xl">
+<div class="grid items-center gap-12 lg:grid-cols-2">
+<div class="flex flex-col gap-8">
+<div class="inline-flex items-center gap-2 rounded-full bg-accent/10 px-4 py-1 text-sm font-bold text-accent bg-primary/10 text-primary">
+<span class="material-symbols-outlined text-sm">stars</span>
+                            Premier's Award Winner - Perfect 50 Scorer
+                        </div>
+<h1 class="text-5xl font-black leading-[1.1] tracking-tight md:text-7xl">
+                            Master VCE English <br/>
+<span class="text-primary">With a Perfect 50 Scorer</span>
+</h1>
+<p class="max-w-xl text-lg leading-relaxed text-slate-600 dark:text-slate-400">
+                            Unlock your high-achieving potential and secure your dream ATAR with strategic, personalized tutoring from one of Victoria's top English students.
+                        </p>
+<div class="flex flex-wrap gap-4">
+<button class="flex h-14 items-center justify-center rounded-xl bg-primary px-8 text-lg font-bold text-white transition-all hover:scale-105">
+                                Book a Trial Lesson
+                            </button>
+<button class="flex h-14 items-center justify-center rounded-xl border-2 border-slate-200 dark:border-slate-800 px-8 text-lg font-bold transition-all hover:bg-slate-50 dark:hover:bg-slate-800">
+                                View Free Resources
+                            </button>
+</div>
+</div>
+<div class="relative">
+<div class="absolute -inset-4 rounded-3xl bg-gradient-to-tr from-primary/20 to-primary/5 blur-2xl"></div>
+<div class="relative aspect-[4/5] overflow-hidden rounded-3xl border-8 border-white dark:border-slate-800 bg-slate-200 shadow-2xl">
+<img alt="Professional Tutor Portrait" class="h-full w-full object-cover" data-alt="Professional young male tutor in smart casual attire" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC_srK7p2J7Re_9UiKkdz_wOyz1DlILeICbtDUHGnuhF8MtW9FqEZELNEdi_GF0gJ2faOXiSyQHVmQWX5p8TQ_w5VtQ1_ea3-PlkkqyxOrwwF16Y5KXyfTD9dd6iP3TGlfMw2aXJ6QCwOl9SnqN98p9yMlIPafI2NRQmT1ZNhbMWIZ67bVgOlEC7V4Wy7HuiK2eT2pZbCOUn9wDlSQlogDaT88xYChRHuwapB6xUSgCnIqfme0TlQZCvTbBYyfQf9ZWs0J0W5fA-Xk"/>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Statistics Section -->
+<section class="bg-primary py-16 text-white">
+<div class="mx-auto max-w-7xl px-6">
+<div class="grid grid-cols-2 gap-8 md:grid-cols-4">
+<div class="text-center">
+<div class="text-4xl font-black text-white">50</div>
+<div class="mt-2 text-sm font-medium uppercase tracking-widest text-white/70">Raw Study Score</div>
+</div>
+<div class="text-center">
+<div class="text-4xl font-black text-white">100+</div>
+<div class="mt-2 text-sm font-medium uppercase tracking-widest text-white/70">Students Helped</div>
+</div>
+<div class="text-center">
+<div class="text-4xl font-black text-white">45+</div>
+<div class="mt-2 text-sm font-medium uppercase tracking-widest text-white/70">Avg. Student Score</div>
+</div>
+<div class="text-center">
+<div class="text-4xl font-black text-white">99.95</div>
+<div class="mt-2 text-sm font-medium uppercase tracking-widest text-white/70">ATAR Achieved</div>
+</div>
+</div>
+</div>
+</section>
+<!-- About Section -->
+<section class="py-24" id="about">
+<div class="mx-auto max-w-7xl px-6">
+<div class="mb-16 text-center">
+<h2 class="text-3xl font-black tracking-tight md:text-5xl">Your Path to a 40+ Score</h2>
+<p class="mt-4 text-lg text-slate-600 dark:text-slate-400">Strategic tutoring that focuses on high-yield exam techniques.</p>
+</div>
+<div class="grid gap-8 md:grid-cols-3">
+<div class="group rounded-2xl bg-white dark:bg-slate-900 p-8 shadow-sm transition-all hover:shadow-xl">
+<div class="mb-6 flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary">
+<span class="material-symbols-outlined">edit_note</span>
+</div>
+<h3 class="mb-3 text-xl font-bold">Essay Engineering</h3>
+<p class="text-slate-600 dark:text-slate-400">Learn the exact structures and vocabulary that examiners look for in Section A and B.</p>
+</div>
+<div class="group rounded-2xl bg-white dark:bg-slate-900 p-8 shadow-sm transition-all hover:shadow-xl">
+<div class="mb-6 flex h-12 w-12 items-center justify-center rounded-lg bg-accent/10 text-accent">
+<span class="material-symbols-outlined">psychology</span>
+</div>
+<h3 class="mb-3 text-xl font-bold">Analysis Frameworks</h3>
+<p class="text-slate-600 dark:text-slate-400">Master the art of Argument Analysis with templates designed for speed and depth.</p>
+</div>
+<div class="group rounded-2xl bg-white dark:bg-slate-900 p-8 shadow-sm transition-all hover:shadow-xl">
+<div class="mb-6 flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary">
+<span class="material-symbols-outlined">timer</span>
+</div>
+<h3 class="mb-3 text-xl font-bold">Exam Management</h3>
+<p class="text-slate-600 dark:text-slate-400">Time-tested strategies for planning three high-quality essays within the three-hour limit.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Study Notes (Premium) Section -->
+<section class="bg-slate-50 dark:bg-slate-950 py-24" id="notes">
+<div class="mx-auto max-w-7xl px-6">
+<div class="flex flex-col items-start justify-between gap-8 md:flex-row md:items-center">
+<div>
+<span class="text-sm font-bold uppercase tracking-widest text-primary">Premium Resources</span>
+<h2 class="mt-2 text-4xl font-black tracking-tight">VCE Study Notes Vault</h2>
+</div>
+<button class="rounded-xl border-2 border-primary px-6 py-3 font-bold text-primary hover:bg-primary hover:text-white transition-all">
+                        Browse All Notes
+                    </button>
+</div>
+<div class="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+<!-- Note Card 1 -->
+<div class="group relative overflow-hidden rounded-2xl bg-white dark:bg-slate-900 shadow-sm transition-all hover:-translate-y-1">
+<div class="aspect-[3/2] bg-slate-200 dark:bg-slate-800">
+<img alt="Sample Essay Preview" class="h-full w-full object-cover opacity-80" data-alt="A stack of neatly written study notes and books" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCXqtauPt31kUTmTgaDsv8RHjcFlxazKJeWDE-0iuR8yTyq0hk60PzIu6yd7dQ2k8NMUmHfZzbFDFLZYXvjRSe0iFSgl-9he5zkZiIhUwH9lo_nRTx2FWJNwHqQ1f_3rpZtRTRKsHgpbO7ompsGwPEDuamheJR3pOarMyUFCUkRZjAJjZduN-cTsnJUM_vZnAuqws_a4St9S0HSOvY2keUtNorKty1YkfkUzxDwGsqpIPHuSyaz0QiH84_bFNrBmmmWYu6NVrW8uFw"/>
+</div>
+<div class="p-5">
+<div class="mb-2 flex items-center justify-between">
+<span class="text-xs font-bold text-primary uppercase">Section A</span>
+<span class="rounded-full bg-accent px-2 py-0.5 text-[10px] font-bold text-white uppercase">Premium</span>
+</div>
+<h4 class="font-bold">Text Response Guide</h4>
+<p class="mt-2 text-sm text-slate-500">20+ high-scoring sample paragraphs for key texts.</p>
+</div>
+</div>
+<!-- Note Card 2 -->
+<div class="group relative overflow-hidden rounded-2xl bg-white dark:bg-slate-900 shadow-sm transition-all hover:-translate-y-1">
+<div class="aspect-[3/2] bg-slate-200 dark:bg-slate-800">
+<img alt="Vocabulary List" class="h-full w-full object-cover opacity-80" data-alt="Close up of a bookshelf with classic literature" src="https://lh3.googleusercontent.com/aida-public/AB6AXuALfy8hClfnDC5UtVze6vS-Ei8PW5osErSI_djM_VPDwENA6uSu2m4zwEOwSWYN33RCfMb4FZ6SuA1XiV5tn0YP79okldzuKJpgZdXE3VX_CcWsOZh7WjwJexIpV1fjHby8Sw4HVHron-92mUyRG4bQtsF6IfU9ayuT6xa5RUCL748BKBTtSSyZ1ZlO7RrMyflL26TJ_BIB7_6ey6FXTC34nUGyzajmReUfxyt-UcQtvk73fKChSYR2t5yCHlFh5YSoB5zlMsdvPGs"/>
+</div>
+<div class="p-5">
+<div class="mb-2 flex items-center justify-between">
+<span class="text-xs font-bold text-primary uppercase">Vocabulary</span>
+<span class="rounded-full bg-accent px-2 py-0.5 text-[10px] font-bold text-white uppercase">Premium</span>
+</div>
+<h4 class="font-bold">Lexical Bank 2.0</h4>
+<p class="mt-2 text-sm text-slate-500">Elevated vocabulary specifically curated for English analysis.</p>
+</div>
+</div>
+<!-- Note Card 3 -->
+<div class="group relative overflow-hidden rounded-2xl bg-white dark:bg-slate-900 shadow-sm transition-all hover:-translate-y-1">
+<div class="aspect-[3/2] bg-slate-200 dark:bg-slate-800">
+<img alt="Argument Analysis" class="h-full w-full object-cover opacity-80" data-alt="Notebook showing detailed flowcharts and text analysis" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDofmy66iUhNMDm4XFkY13hToCjkwzBmg2g9YWG3hIg7pCt_nba9_wDGIH6OpkZoCjSALEUVnnjF2tqAjT7vlHLfzlxwkJp3Uq29QC-3xbVKDmmFCTebHnck25gRNkdl_mRlJ_Zlo0HsCvsHPkO37To0bhwtQCm192GQgbzY4hGagteUTRZuq9Fta3xYxGg19noOc2pLzDke0vqfQRuGyRNx-bt-3M5NbPnHZV2LI0K1hP8PcFTezLvyQaS8YAjO9ZfKFU2h_l9IBc"/>
+</div>
+<div class="p-5">
+<div class="mb-2 flex items-center justify-between">
+<span class="text-xs font-bold text-primary uppercase">Section C</span>
+<span class="rounded-full bg-slate-200 dark:bg-slate-700 px-2 py-0.5 text-[10px] font-bold text-slate-600 dark:text-slate-300 uppercase">Free Sample</span>
+</div>
+<h4 class="font-bold">AA Flowchart</h4>
+<p class="mt-2 text-sm text-slate-500">The 5-step process for mapping any persuasive text.</p>
+</div>
+</div>
+<!-- Note Card 4 -->
+<div class="group relative overflow-hidden rounded-2xl bg-white dark:bg-slate-900 shadow-sm transition-all hover:-translate-y-1">
+<div class="aspect-[3/2] bg-slate-200 dark:bg-slate-800">
+<img alt="Exam Strategies" class="h-full w-full object-cover opacity-80" data-alt="Calendar and planner with study schedules" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCEYqCXkyAc3v18-XakPwoULsJWPGlPk4KDJBfJM9uZ2UCUGvczoLvOwXceZQt8V7RVGgmaWk0OfHQSo9FypAh0eqWaeJBZEkMJOUgPQBUDc1eGHuEFO_M1n0bHnw-Zp7rE13IJrVJcOcYumeb4A2ClzXuC7EAO3qFzdP6_m5dx-xkCKjgEcDRJMmjVOoUEdf6MnhhYO3qY3p_l3XcebwRHtbeNxDRQgxc46_rBzjV7sOtqiToIK3OqjJlwRrZXTZPmNB1_8puEVjc"/>
+</div>
+<div class="p-5">
+<div class="mb-2 flex items-center justify-between">
+<span class="text-xs font-bold text-primary uppercase">Exam Prep</span>
+<span class="rounded-full bg-accent px-2 py-0.5 text-[10px] font-bold text-white uppercase">Premium</span>
+</div>
+<h4 class="font-bold">Exam Checklist</h4>
+<p class="mt-2 text-sm text-slate-500">The final 48-hour routine used for a 50 study score.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Student Referrals Section -->
+<section class="py-24" id="referrals">
+<div class="mx-auto max-w-7xl px-6">
+<div class="mb-16 text-center">
+<h2 class="text-3xl font-black tracking-tight md:text-5xl">What Students Say</h2>
+</div>
+<div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+<div class="rounded-2xl border border-slate-200 dark:border-slate-800 p-8">
+<div class="flex gap-1 text-primary">
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+</div>
+<p class="mt-6 italic text-slate-600 dark:text-slate-400">"My score went from a predicted 32 to a raw 46. The essay feedback was incredibly detailed and really helped me understand what I was missing."</p>
+<div class="mt-8 flex items-center gap-4">
+<div class="h-12 w-12 rounded-full bg-slate-200"></div>
+<div>
+<h5 class="font-bold italic">Sarah M.</h5>
+<p class="text-xs text-slate-500">Class of 2023</p>
+</div>
+</div>
+</div>
+<div class="rounded-2xl border border-slate-200 dark:border-slate-800 p-8">
+<div class="flex gap-1 text-primary">
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+</div>
+<p class="mt-6 italic text-slate-600 dark:text-slate-400">"The Argument Analysis framework is a game changer. I used to struggle with timing, but now I can finish a full analysis in 50 minutes."</p>
+<div class="mt-8 flex items-center gap-4">
+<div class="h-12 w-12 rounded-full bg-slate-200"></div>
+<div>
+<h5 class="font-bold italic">James T.</h5>
+<p class="text-xs text-slate-500">Class of 2023</p>
+</div>
+</div>
+</div>
+<div class="rounded-2xl border border-slate-200 dark:border-slate-800 p-8">
+<div class="flex gap-1 text-primary">
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+</div>
+<p class="mt-6 italic text-slate-600 dark:text-slate-400">"Learning from a 50 scorer made such a difference. They knew exactly how to tweak my writing to impress the examiners."</p>
+<div class="mt-8 flex items-center gap-4">
+<div class="h-12 w-12 rounded-full bg-slate-200"></div>
+<div>
+<h5 class="font-bold italic">Chloe L.</h5>
+<p class="text-xs text-slate-500">Class of 2023</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="py-24 px-6" id="contact">
+<div class="mx-auto max-w-5xl overflow-hidden rounded-[2rem] bg-primary px-8 py-16 text-center text-white md:px-16">
+<h2 class="text-4xl font-black md:text-5xl">Ready to Aim for Your Own 50?</h2>
+<p class="mx-auto mt-6 max-w-2xl text-lg text-white/80">Limited spots available for the upcoming semester. Book your diagnostic session today.</p>
+<div class="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
+<button class="h-14 w-full rounded-xl bg-white px-8 text-lg font-bold text-primary sm:w-auto hover:bg-slate-100 transition-colors">
+                        Book Your Free Consultation
+                    </button>
+<button class="h-14 w-full rounded-xl border-2 border-white/20 px-8 text-lg font-bold text-white sm:w-auto hover:bg-white/10 transition-colors">
+                        View Pricing
+                    </button>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-background-dark py-12">
+<div class="mx-auto max-w-7xl px-6">
+<div class="flex flex-col items-center justify-between gap-8 md:flex-row">
+<div class="flex items-center gap-2">
+<div class="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-white">
+<span class="material-symbols-outlined text-sm">school</span>
+</div>
+<span class="text-lg font-bold text-primary">VCE English Mastery</span>
+</div>
+<div class="flex gap-8 text-sm font-medium text-slate-500">
+<a class="hover:text-primary" href="#">Privacy Policy</a>
+<a class="hover:text-primary" href="#">Terms of Service</a>
+<a class="hover:text-primary" href="#">FAQ</a>
+</div>
+<div class="flex gap-4">
+<a class="flex h-10 w-10 items-center justify-center rounded-full bg-slate-100 dark:bg-slate-800 hover:bg-primary/10 hover:text-primary transition-all" href="#">
+<span class="material-symbols-outlined">mail</span>
+</a>
+<a class="flex h-10 w-10 items-center justify-center rounded-full bg-slate-100 dark:bg-slate-800 hover:bg-primary/10 hover:text-primary transition-all" href="#">
+<span class="material-symbols-outlined">group</span>
+</a>
+</div>
+</div>
+<div class="mt-12 text-center text-xs text-slate-400">
+                    © 2024 VCE English Mastery. Designed for high achievers.
+                </div>
+</div>
+</footer>
+</div>
+</body></html>
+
+<!-- Home Page - Modern Slate Theme -->
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#101622", // Dark Slate Blue
+                        "accent": "#11d493",  // Custom Emerald Accent
+                        "background-light": "#f8fafc",
+                        "background-dark": "#020617",
+                    },
+                    fontFamily: {
+                        "display": ["Newsreader", "serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.5rem", "lg": "0.75rem", "xl": "1rem", "full": "9999px"},
+                },
+            },
+        }</script>
+<title>VCE English Mastery | Perfect 50 Tutor</title>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100">
+<div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+<!-- Navigation Bar -->
+<header class="sticky top-0 z-50 w-full border-b border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-background-dark/80 backdrop-blur-md">
+<div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+<div class="flex items-center gap-2">
+<div class="flex h-10 w-10 items-center justify-center rounded-lg bg-primary text-white">
+<span class="material-symbols-outlined">school</span>
+</div>
+<span class="text-xl font-bold tracking-tight text-primary">VCE English Mastery</span>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#about">About</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#notes">Study Notes</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#referrals">Referrals</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#contact">Contact</a>
+</nav>
+<button class="rounded-lg bg-primary px-5 py-2.5 text-sm font-bold text-white shadow-lg shadow-primary/20 hover:bg-primary/90 transition-all">
+                    Get Started
+                </button>
+</div>
+</header>
+<!-- Hero Section -->
+<section class="relative px-6 py-12 md:py-24 lg:px-20">
+<div class="mx-auto max-w-7xl">
+<div class="grid items-center gap-12 lg:grid-cols-2">
+<div class="flex flex-col gap-8">
+<div class="inline-flex items-center gap-2 rounded-full bg-accent/20 px-4 py-1 text-sm font-bold text-primary dark:text-accent">
+<span class="material-symbols-outlined text-sm">stars</span>
+                            Premier's Award Winner - Perfect 50 Scorer
+                        </div>
+<h1 class="text-5xl font-black leading-[1.1] tracking-tight md:text-7xl">
+                            Master VCE English <br/>
+<span class="text-primary">With a Perfect 50 Scorer</span>
+</h1>
+<p class="max-w-xl text-lg leading-relaxed text-slate-600 dark:text-slate-400">
+                            Unlock your high-achieving potential and secure your dream ATAR with strategic, personalized tutoring from one of Victoria's top English students.
+                        </p>
+<div class="flex flex-wrap gap-4">
+<button class="flex h-14 items-center justify-center rounded-xl bg-accent px-8 text-lg font-bold text-primary transition-all hover:scale-105">
+                                Book a Trial Lesson
+                            </button>
+<button class="flex h-14 items-center justify-center rounded-xl border-2 border-primary/20 dark:border-slate-800 px-8 text-lg font-bold transition-all hover:bg-primary/5 dark:hover:bg-slate-800">
+                                View Free Resources
+                            </button>
+</div>
+</div>
+<div class="relative">
+<div class="absolute -inset-4 rounded-3xl bg-gradient-to-tr from-accent/20 to-primary/20 blur-2xl"></div>
+<div class="relative aspect-[4/5] overflow-hidden rounded-3xl border-8 border-white dark:border-slate-800 bg-slate-200 shadow-2xl">
+<img alt="Professional Tutor Portrait" class="h-full w-full object-cover" data-alt="Professional young male tutor in smart casual attire" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC_srK7p2J7Re_9UiKkdz_wOyz1DlILeICbtDUHGnuhF8MtW9FqEZELNEdi_GF0gJ2faOXiSyQHVmQWX5p8TQ_w5VtQ1_ea3-PlkkqyxOrwwF16Y5KXyfTD9dd6iP3TGlfMw2aXJ6QCwOl9SnqN98p9yMlIPafI2NRQmT1ZNhbMWIZ67bVgOlEC7V4Wy7HuiK2eT2pZbCOUn9wDlSQlogDaT88xYChRHuwapB6xUSgCnIqfme0TlQZCvTbBYyfQf9ZWs0J0W5fA-Xk"/>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Statistics Section -->
+<section class="bg-primary py-16 text-white">
+<div class="mx-auto max-w-7xl px-6">
+<div class="grid grid-cols-2 gap-8 md:grid-cols-4">
+<div class="text-center">
+<div class="text-4xl font-black text-accent">50</div>
+<div class="mt-2 text-sm font-medium uppercase tracking-widest text-white/70">Raw Study Score</div>
+</div>
+<div class="text-center">
+<div class="text-4xl font-black text-accent">100+</div>
+<div class="mt-2 text-sm font-medium uppercase tracking-widest text-white/70">Students Helped</div>
+</div>
+<div class="text-center">
+<div class="text-4xl font-black text-accent">45+</div>
+<div class="mt-2 text-sm font-medium uppercase tracking-widest text-white/70">Avg. Student Score</div>
+</div>
+<div class="text-center">
+<div class="text-4xl font-black text-accent">99.95</div>
+<div class="mt-2 text-sm font-medium uppercase tracking-widest text-white/70">ATAR Achieved</div>
+</div>
+</div>
+</div>
+</section>
+<!-- About Section -->
+<section class="py-24" id="about">
+<div class="mx-auto max-w-7xl px-6">
+<div class="mb-16 text-center">
+<h2 class="text-3xl font-black tracking-tight md:text-5xl">Your Path to a 40+ Score</h2>
+<p class="mt-4 text-lg text-slate-600 dark:text-slate-400">Strategic tutoring that focuses on high-yield exam techniques.</p>
+</div>
+<div class="grid gap-8 md:grid-cols-3">
+<div class="group rounded-2xl bg-white dark:bg-slate-900 p-8 shadow-sm transition-all hover:shadow-xl">
+<div class="mb-6 flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary">
+<span class="material-symbols-outlined">edit_note</span>
+</div>
+<h3 class="mb-3 text-xl font-bold">Essay Engineering</h3>
+<p class="text-slate-600 dark:text-slate-400">Learn the exact structures and vocabulary that examiners look for in Section A and B.</p>
+</div>
+<div class="group rounded-2xl bg-white dark:bg-slate-900 p-8 shadow-sm transition-all hover:shadow-xl">
+<div class="mb-6 flex h-12 w-12 items-center justify-center rounded-lg bg-accent/10 text-accent">
+<span class="material-symbols-outlined">psychology</span>
+</div>
+<h3 class="mb-3 text-xl font-bold">Analysis Frameworks</h3>
+<p class="text-slate-600 dark:text-slate-400">Master the art of Argument Analysis with templates designed for speed and depth.</p>
+</div>
+<div class="group rounded-2xl bg-white dark:bg-slate-900 p-8 shadow-sm transition-all hover:shadow-xl">
+<div class="mb-6 flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary">
+<span class="material-symbols-outlined">timer</span>
+</div>
+<h3 class="mb-3 text-xl font-bold">Exam Management</h3>
+<p class="text-slate-600 dark:text-slate-400">Time-tested strategies for planning three high-quality essays within the three-hour limit.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Study Notes (Premium) Section -->
+<section class="bg-slate-50 dark:bg-slate-950 py-24" id="notes">
+<div class="mx-auto max-w-7xl px-6">
+<div class="flex flex-col items-start justify-between gap-8 md:flex-row md:items-center">
+<div>
+<span class="text-sm font-bold uppercase tracking-widest text-accent">Premium Resources</span>
+<h2 class="mt-2 text-4xl font-black tracking-tight">VCE Study Notes Vault</h2>
+</div>
+<button class="rounded-xl border-2 border-accent px-6 py-3 font-bold text-primary dark:text-accent hover:bg-accent hover:text-primary transition-all">
+                        Browse All Notes
+                    </button>
+</div>
+<div class="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+<!-- Note Card 1 -->
+<div class="group relative overflow-hidden rounded-2xl bg-white dark:bg-slate-900 shadow-sm transition-all hover:-translate-y-1">
+<div class="aspect-[3/2] bg-slate-200 dark:bg-slate-800">
+<img alt="Sample Essay Preview" class="h-full w-full object-cover opacity-80" data-alt="A stack of neatly written study notes and books" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCXqtauPt31kUTmTgaDsv8RHjcFlxazKJeWDE-0iuR8yTyq0hk60PzIu6yd7dQ2k8NMUmHfZzbFDFLZYXvjRSe0iFSgl-9he5zkZiIhUwH9lo_nRTx2FWJNwHqQ1f_3rpZtRTRKsHgpbO7ompsGwPEDuamheJR3pOarMyUFCUkRZjAJjZduN-cTsnJUM_vZnAuqws_a4St9S0HSOvY2keUtNorKty1YkfkUzxDwGsqpIPHuSyaz0QiH84_bFNrBmmmWYu6NVrW8uFw"/>
+</div>
+<div class="p-5">
+<div class="mb-2 flex items-center justify-between">
+<span class="text-xs font-bold text-primary uppercase">Section A</span>
+<span class="rounded-full bg-accent px-2 py-0.5 text-[10px] font-bold text-white uppercase">Premium</span>
+</div>
+<h4 class="font-bold">Text Response Guide</h4>
+<p class="mt-2 text-sm text-slate-500">20+ high-scoring sample paragraphs for key texts.</p>
+</div>
+</div>
+<!-- Note Card 2 -->
+<div class="group relative overflow-hidden rounded-2xl bg-white dark:bg-slate-900 shadow-sm transition-all hover:-translate-y-1">
+<div class="aspect-[3/2] bg-slate-200 dark:bg-slate-800">
+<img alt="Vocabulary List" class="h-full w-full object-cover opacity-80" data-alt="Close up of a bookshelf with classic literature" src="https://lh3.googleusercontent.com/aida-public/AB6AXuALfy8hClfnDC5UtVze6vS-Ei8PW5osErSI_djM_VPDwENA6uSu2m4zwEOwSWYN33RCfMb4FZ6SuA1XiV5tn0YP79okldzuKJpgZdXE3VX_CcWsOZh7WjwJexIpV1fjHby8Sw4HVHron-92mUyRG4bQtsF6IfU9ayuT6xa5RUCL748BKBTtSSyZ1ZlO7RrMyflL26TJ_BIB7_6ey6FXTC34nUGyzajmReUfxyt-UcQtvk73fKChSYR2t5yCHlFh5YSoB5zlMsdvPGs"/>
+</div>
+<div class="p-5">
+<div class="mb-2 flex items-center justify-between">
+<span class="text-xs font-bold text-primary uppercase">Vocabulary</span>
+<span class="rounded-full bg-accent px-2 py-0.5 text-[10px] font-bold text-white uppercase">Premium</span>
+</div>
+<h4 class="font-bold">Lexical Bank 2.0</h4>
+<p class="mt-2 text-sm text-slate-500">Elevated vocabulary specifically curated for English analysis.</p>
+</div>
+</div>
+<!-- Note Card 3 -->
+<div class="group relative overflow-hidden rounded-2xl bg-white dark:bg-slate-900 shadow-sm transition-all hover:-translate-y-1">
+<div class="aspect-[3/2] bg-slate-200 dark:bg-slate-800">
+<img alt="Argument Analysis" class="h-full w-full object-cover opacity-80" data-alt="Notebook showing detailed flowcharts and text analysis" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDofmy66iUhNMDm4XFkY13hToCjkwzBmg2g9YWG3hIg7pCt_nba9_wDGIH6OpkZoCjSALEUVnnjF2tqAjT7vlHLfzlxwkJp3Uq29QC-3xbVKDmmFCTebHnck25gRNkdl_mRlJ_Zlo0HsCvsHPkO37To0bhwtQCm192GQgbzY4hGagteUTRZuq9Fta3xYxGg19noOc2pLzDke0vqfQRuGyRNx-bt-3M5NbPnHZV2LI0K1hP8PcFTezLvyQaS8YAjO9ZfKFU2h_l9IBc"/>
+</div>
+<div class="p-5">
+<div class="mb-2 flex items-center justify-between">
+<span class="text-xs font-bold text-primary uppercase">Section C</span>
+<span class="rounded-full bg-slate-200 dark:bg-slate-700 px-2 py-0.5 text-[10px] font-bold text-slate-600 dark:text-slate-300 uppercase">Free Sample</span>
+</div>
+<h4 class="font-bold">AA Flowchart</h4>
+<p class="mt-2 text-sm text-slate-500">The 5-step process for mapping any persuasive text.</p>
+</div>
+</div>
+<!-- Note Card 4 -->
+<div class="group relative overflow-hidden rounded-2xl bg-white dark:bg-slate-900 shadow-sm transition-all hover:-translate-y-1">
+<div class="aspect-[3/2] bg-slate-200 dark:bg-slate-800">
+<img alt="Exam Strategies" class="h-full w-full object-cover opacity-80" data-alt="Calendar and planner with study schedules" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCEYqCXkyAc3v18-XakPwoULsJWPGlPk4KDJBfJM9uZ2UCUGvczoLvOwXceZQt8V7RVGgmaWk0OfHQSo9FypAh0eqWaeJBZEkMJOUgPQBUDc1eGHuEFO_M1n0bHnw-Zp7rE13IJrVJcOcYumeb4A2ClzXuC7EAO3qFzdP6_m5dx-xkCKjgEcDRJMmjVOoUEdf6MnhhYO3qY3p_l3XcebwRHtbeNxDRQgxc46_rBzjV7sOtqiToIK3OqjJlwRrZXTZPmNB1_8puEVjc"/>
+</div>
+<div class="p-5">
+<div class="mb-2 flex items-center justify-between">
+<span class="text-xs font-bold text-primary uppercase">Exam Prep</span>
+<span class="rounded-full bg-accent px-2 py-0.5 text-[10px] font-bold text-white uppercase">Premium</span>
+</div>
+<h4 class="font-bold">Exam Checklist</h4>
+<p class="mt-2 text-sm text-slate-500">The final 48-hour routine used for a 50 study score.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Student Referrals Section -->
+<section class="py-24" id="referrals">
+<div class="mx-auto max-w-7xl px-6">
+<div class="mb-16 text-center">
+<h2 class="text-3xl font-black tracking-tight md:text-5xl">What Students Say</h2>
+</div>
+<div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+<div class="rounded-2xl border border-slate-200 dark:border-slate-800 p-8">
+<div class="flex gap-1 text-accent">
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+</div>
+<p class="mt-6 italic text-slate-600 dark:text-slate-400">"My score went from a predicted 32 to a raw 46. The essay feedback was incredibly detailed and really helped me understand what I was missing."</p>
+<div class="mt-8 flex items-center gap-4">
+<div class="h-12 w-12 rounded-full bg-slate-200"></div>
+<div>
+<h5 class="font-bold italic">Sarah M.</h5>
+<p class="text-xs text-slate-500">Class of 2023</p>
+</div>
+</div>
+</div>
+<div class="rounded-2xl border border-slate-200 dark:border-slate-800 p-8">
+<div class="flex gap-1 text-accent">
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+</div>
+<p class="mt-6 italic text-slate-600 dark:text-slate-400">"The Argument Analysis framework is a game changer. I used to struggle with timing, but now I can finish a full analysis in 50 minutes."</p>
+<div class="mt-8 flex items-center gap-4">
+<div class="h-12 w-12 rounded-full bg-slate-200"></div>
+<div>
+<h5 class="font-bold italic">James T.</h5>
+<p class="text-xs text-slate-500">Class of 2023</p>
+</div>
+</div>
+</div>
+<div class="rounded-2xl border border-slate-200 dark:border-slate-800 p-8">
+<div class="flex gap-1 text-accent">
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+</div>
+<p class="mt-6 italic text-slate-600 dark:text-slate-400">"Learning from a 50 scorer made such a difference. They knew exactly how to tweak my writing to impress the examiners."</p>
+<div class="mt-8 flex items-center gap-4">
+<div class="h-12 w-12 rounded-full bg-slate-200"></div>
+<div>
+<h5 class="font-bold italic">Chloe L.</h5>
+<p class="text-xs text-slate-500">Class of 2023</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="py-24 px-6" id="contact">
+<div class="mx-auto max-w-5xl overflow-hidden rounded-[2rem] bg-primary px-8 py-16 text-center text-white md:px-16">
+<h2 class="text-4xl font-black md:text-5xl">Ready to Aim for Your Own 50?</h2>
+<p class="mx-auto mt-6 max-w-2xl text-lg text-white/80">Limited spots available for the upcoming semester. Book your diagnostic session today.</p>
+<div class="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
+<button class="h-14 w-full rounded-xl bg-accent px-8 text-lg font-bold text-primary sm:w-auto hover:bg-accent/90 transition-colors">
+                        Book Your Free Consultation
+                    </button>
+<button class="h-14 w-full rounded-xl border-2 border-white/20 px-8 text-lg font-bold text-white sm:w-auto hover:bg-white/10 transition-colors">
+                        View Pricing
+                    </button>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-background-dark py-12">
+<div class="mx-auto max-w-7xl px-6">
+<div class="flex flex-col items-center justify-between gap-8 md:flex-row">
+<div class="flex items-center gap-2">
+<div class="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-white">
+<span class="material-symbols-outlined text-sm">school</span>
+</div>
+<span class="text-lg font-bold text-slate-900 dark:text-white">VCE English Mastery</span>
+</div>
+<div class="flex gap-8 text-sm font-medium text-slate-500">
+<a class="hover:text-primary" href="#">Privacy Policy</a>
+<a class="hover:text-primary" href="#">Terms of Service</a>
+<a class="hover:text-primary" href="#">FAQ</a>
+</div>
+<div class="flex gap-4">
+<a class="flex h-10 w-10 items-center justify-center rounded-full bg-slate-100 dark:bg-slate-800 hover:bg-primary/10 hover:text-primary transition-all" href="#">
+<span class="material-symbols-outlined">mail</span>
+</a>
+<a class="flex h-10 w-10 items-center justify-center rounded-full bg-slate-100 dark:bg-slate-800 hover:bg-primary/10 hover:text-primary transition-all" href="#">
+<span class="material-symbols-outlined">group</span>
+</a>
+</div>
+</div>
+<div class="mt-12 text-center text-xs text-slate-400">
+                    © 2024 VCE English Mastery. Designed for high achievers.
+                </div>
+</div>
+</footer>
+</div>
+</body></html>
+
+<!-- Home Page - Modern Slate (Updated Typography) -->
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#101622", // Dark Slate Blue
+                        "accent": "#11d493",  // Custom Emerald Accent
+                        "background-light": "#f8fafc",
+                        "background-dark": "#020617",
+                    },
+                    fontFamily: {
+                        "sans": ["Inter", "sans-serif"],
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.5rem", "lg": "0.75rem", "xl": "1rem", "full": "9999px"},
+                },
+            },
+        }</script>
+<title>VCE English Mastery | Perfect 50 Tutor</title>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 font-sans">
+<div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+<!-- Navigation Bar -->
+<header class="sticky top-0 z-50 w-full border-b border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-background-dark/80 backdrop-blur-md">
+<div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+<div class="flex items-center gap-2">
+<div class="flex h-10 w-10 items-center justify-center rounded-lg bg-primary text-white">
+<span class="material-symbols-outlined">school</span>
+</div>
+<span class="text-xl font-bold tracking-tight text-primary">VCE English Mastery</span>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#about">About</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#notes">Study Notes</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#referrals">Referrals</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#contact">Contact</a>
+</nav>
+<button class="rounded-lg bg-primary px-5 py-2.5 text-sm font-bold text-white shadow-lg shadow-primary/20 hover:bg-primary/90 transition-all">
+                    Get Started
+                </button>
+</div>
+</header>
+<!-- Hero Section -->
+<section class="relative px-6 py-12 md:py-24 lg:px-20">
+<div class="mx-auto max-w-7xl">
+<div class="grid items-center gap-12 lg:grid-cols-2">
+<div class="flex flex-col gap-8">
+<div class="inline-flex items-center gap-2 rounded-full bg-accent/20 px-4 py-1 text-sm font-bold text-primary dark:text-accent">
+<span class="material-symbols-outlined text-sm">stars</span>
+                            Premier's Award Winner - Perfect 50 Scorer
+                        </div>
+<h1 class="text-5xl font-black leading-[1.1] tracking-tight md:text-7xl">
+                            Master VCE English <br/>
+<span class="text-primary">With a Perfect 50 Scorer</span>
+</h1>
+<p class="max-w-xl text-lg leading-relaxed text-slate-600 dark:text-slate-400">
+                            Unlock your high-achieving potential and secure your dream ATAR with strategic, personalized tutoring from one of Victoria's top English students.
+                        </p>
+<div class="flex flex-wrap gap-4">
+<button class="flex h-14 items-center justify-center rounded-xl bg-accent px-8 text-lg font-bold text-primary transition-all hover:scale-105">
+                                Book a Trial Lesson
+                            </button>
+<button class="flex h-14 items-center justify-center rounded-xl border-2 border-primary/20 dark:border-slate-800 px-8 text-lg font-bold transition-all hover:bg-primary/5 dark:hover:bg-slate-800">
+                                View Free Resources
+                            </button>
+</div>
+</div>
+<div class="relative">
+<div class="absolute -inset-4 rounded-3xl bg-gradient-to-tr from-accent/20 to-primary/20 blur-2xl"></div>
+<div class="relative aspect-[4/5] overflow-hidden rounded-3xl border-8 border-white dark:border-slate-800 bg-slate-200 shadow-2xl">
+<img alt="Professional Tutor Portrait" class="h-full w-full object-cover" data-alt="Professional young male tutor in smart casual attire" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC_srK7p2J7Re_9UiKkdz_wOyz1DlILeICbtDUHGnuhF8MtW9FqEZELNEdi_GF0gJ2faOXiSyQHVmQWX5p8TQ_w5VtQ1_ea3-PlkkqyxOrwwF16Y5KXyfTD9dd6iP3TGlfMw2aXJ6QCwOl9SnqN98p9yMlIPafI2NRQmT1ZNhbMWIZ67bVgOlEC7V4Wy7HuiK2eT2pZbCOUn9wDlSQlogDaT88xYChRHuwapB6xUSgCnIqfme0TlQZCvTbBYyfQf9ZWs0J0W5fA-Xk"/>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Statistics Section -->
+<section class="bg-primary py-16 text-white">
+<div class="mx-auto max-w-7xl px-6">
+<div class="grid grid-cols-2 gap-8 md:grid-cols-4">
+<div class="text-center">
+<div class="text-4xl font-black text-accent">50</div>
+<div class="mt-2 text-sm font-medium uppercase tracking-widest text-white/70">Raw Study Score</div>
+</div>
+<div class="text-center">
+<div class="text-4xl font-black text-accent">100+</div>
+<div class="mt-2 text-sm font-medium uppercase tracking-widest text-white/70">Students Helped</div>
+</div>
+<div class="text-center">
+<div class="text-4xl font-black text-accent">45+</div>
+<div class="mt-2 text-sm font-medium uppercase tracking-widest text-white/70">Avg. Student Score</div>
+</div>
+<div class="text-center">
+<div class="text-4xl font-black text-accent">99.95</div>
+<div class="mt-2 text-sm font-medium uppercase tracking-widest text-white/70">ATAR Achieved</div>
+</div>
+</div>
+</div>
+</section>
+<!-- About Section -->
+<section class="py-24" id="about">
+<div class="mx-auto max-w-7xl px-6">
+<div class="mb-16 text-center">
+<h2 class="text-3xl font-black tracking-tight md:text-5xl">Your Path to a 40+ Score</h2>
+<p class="mt-4 text-lg text-slate-600 dark:text-slate-400">Strategic tutoring that focuses on high-yield exam techniques.</p>
+</div>
+<div class="grid gap-8 md:grid-cols-3">
+<div class="group rounded-2xl bg-white dark:bg-slate-900 p-8 shadow-sm transition-all hover:shadow-xl">
+<div class="mb-6 flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary">
+<span class="material-symbols-outlined">edit_note</span>
+</div>
+<h3 class="mb-3 text-xl font-bold">Essay Engineering</h3>
+<p class="text-slate-600 dark:text-slate-400">Learn the exact structures and vocabulary that examiners look for in Section A and B.</p>
+</div>
+<div class="group rounded-2xl bg-white dark:bg-slate-900 p-8 shadow-sm transition-all hover:shadow-xl">
+<div class="mb-6 flex h-12 w-12 items-center justify-center rounded-lg bg-accent/10 text-accent">
+<span class="material-symbols-outlined">psychology</span>
+</div>
+<h3 class="mb-3 text-xl font-bold">Analysis Frameworks</h3>
+<p class="text-slate-600 dark:text-slate-400">Master the art of Argument Analysis with templates designed for speed and depth.</p>
+</div>
+<div class="group rounded-2xl bg-white dark:bg-slate-900 p-8 shadow-sm transition-all hover:shadow-xl">
+<div class="mb-6 flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary">
+<span class="material-symbols-outlined">timer</span>
+</div>
+<h3 class="mb-3 text-xl font-bold">Exam Management</h3>
+<p class="text-slate-600 dark:text-slate-400">Time-tested strategies for planning three high-quality essays within the three-hour limit.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Study Notes (Premium) Section -->
+<section class="bg-slate-50 dark:bg-slate-950 py-24" id="notes">
+<div class="mx-auto max-w-7xl px-6">
+<div class="flex flex-col items-start justify-between gap-8 md:flex-row md:items-center">
+<div>
+<span class="text-sm font-bold uppercase tracking-widest text-accent">Premium Resources</span>
+<h2 class="mt-2 text-4xl font-black tracking-tight">VCE Study Notes Vault</h2>
+</div>
+<button class="rounded-xl border-2 border-accent px-6 py-3 font-bold text-primary dark:text-accent hover:bg-accent hover:text-primary transition-all">
+                        Browse All Notes
+                    </button>
+</div>
+<div class="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+<!-- Note Card 1 -->
+<div class="group relative overflow-hidden rounded-2xl bg-white dark:bg-slate-900 shadow-sm transition-all hover:-translate-y-1">
+<div class="aspect-[3/2] bg-slate-200 dark:bg-slate-800">
+<img alt="Sample Essay Preview" class="h-full w-full object-cover opacity-80" data-alt="A stack of neatly written study notes and books" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCXqtauPt31kUTmTgaDsv8RHjcFlxazKJeWDE-0iuR8yTyq0hk60PzIu6yd7dQ2k8NMUmHfZzbFDFLZYXvjRSe0iFSgl-9he5zkZiIhUwH9lo_nRTx2FWJNwHqQ1f_3rpZtRTRKsHgpbO7ompsGwPEDuamheJR3pOarMyUFCUkRZjAJjZduN-cTsnJUM_vZnAuqws_a4St9S0HSOvY2keUtNorKty1YkfkUzxDwGsqpIPHuSyaz0QiH84_bFNrBmmmWYu6NVrW8uFw"/>
+</div>
+<div class="p-5">
+<div class="mb-2 flex items-center justify-between">
+<span class="text-xs font-bold text-primary uppercase">Section A</span>
+<span class="rounded-full bg-accent px-2 py-0.5 text-[10px] font-bold text-white uppercase">Premium</span>
+</div>
+<h4 class="font-bold">Text Response Guide</h4>
+<p class="mt-2 text-sm text-slate-500">20+ high-scoring sample paragraphs for key texts.</p>
+</div>
+</div>
+<!-- Note Card 2 -->
+<div class="group relative overflow-hidden rounded-2xl bg-white dark:bg-slate-900 shadow-sm transition-all hover:-translate-y-1">
+<div class="aspect-[3/2] bg-slate-200 dark:bg-slate-800">
+<img alt="Vocabulary List" class="h-full w-full object-cover opacity-80" data-alt="Close up of a bookshelf with classic literature" src="https://lh3.googleusercontent.com/aida-public/AB6AXuALfy8hClfnDC5UtVze6vS-Ei8PW5osErSI_djM_VPDwENA6uSu2m4zwEOwSWYN33RCfMb4FZ6SuA1XiV5tn0YP79okldzuKJpgZdXE3VX_CcWsOZh7WjwJexIpV1fjHby8Sw4HVHron-92mUyRG4bQtsF6IfU9ayuT6xa5RUCL748BKBTtSSyZ1ZlO7RrMyflL26TJ_BIB7_6ey6FXTC34nUGyzajmReUfxyt-UcQtvk73fKChSYR2t5yCHlFh5YSoB5zlMsdvPGs"/>
+</div>
+<div class="p-5">
+<div class="mb-2 flex items-center justify-between">
+<span class="text-xs font-bold text-primary uppercase">Vocabulary</span>
+<span class="rounded-full bg-accent px-2 py-0.5 text-[10px] font-bold text-white uppercase">Premium</span>
+</div>
+<h4 class="font-bold">Lexical Bank 2.0</h4>
+<p class="mt-2 text-sm text-slate-500">Elevated vocabulary specifically curated for English analysis.</p>
+</div>
+</div>
+<!-- Note Card 3 -->
+<div class="group relative overflow-hidden rounded-2xl bg-white dark:bg-slate-900 shadow-sm transition-all hover:-translate-y-1">
+<div class="aspect-[3/2] bg-slate-200 dark:bg-slate-800">
+<img alt="Argument Analysis" class="h-full w-full object-cover opacity-80" data-alt="Notebook showing detailed flowcharts and text analysis" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDofmy66iUhNMDm4XFkY13hToCjkwzBmg2g9YWG3hIg7pCt_nba9_wDGIH6OpkZoCjSALEUVnnjF2tqAjT7vlHLfzlxwkJp3Uq29QC-3xbVKDmmFCTebHnck25gRNkdl_mRlJ_Zlo0HsCvsHPkO37To0bhwtQCm192GQgbzY4hGagteUTRZuq9Fta3xYxGg19noOc2pLzDke0vqfQRuGyRNx-bt-3M5NbPnHZV2LI0K1hP8PcFTezLvyQaS8YAjO9ZfKFU2h_l9IBc"/>
+</div>
+<div class="p-5">
+<div class="mb-2 flex items-center justify-between">
+<span class="text-xs font-bold text-primary uppercase">Section C</span>
+<span class="rounded-full bg-slate-200 dark:bg-slate-700 px-2 py-0.5 text-[10px] font-bold text-slate-600 dark:text-slate-300 uppercase">Free Sample</span>
+</div>
+<h4 class="font-bold">AA Flowchart</h4>
+<p class="mt-2 text-sm text-slate-500">The 5-step process for mapping any persuasive text.</p>
+</div>
+</div>
+<!-- Note Card 4 -->
+<div class="group relative overflow-hidden rounded-2xl bg-white dark:bg-slate-900 shadow-sm transition-all hover:-translate-y-1">
+<div class="aspect-[3/2] bg-slate-200 dark:bg-slate-800">
+<img alt="Exam Strategies" class="h-full w-full object-cover opacity-80" data-alt="Calendar and planner with study schedules" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCEYqCXkyAc3v18-XakPwoULsJWPGlPk4KDJBfJM9uZ2UCUGvczoLvOwXceZQt8V7RVGgmaWk0OfHQSo9FypAh0eqWaeJBZEkMJOUgPQBUDc1eGHuEFO_M1n0bHnw-Zp7rE13IJrVJcOcYumeb4A2ClzXuC7EAO3qFzdP6_m5dx-xkCKjgEcDRJMmjVOoUEdf6MnhhYO3qY3p_l3XcebwRHtbeNxDRQgxc46_rBzjV7sOtqiToIK3OqjJlwRrZXTZPmNB1_8puEVjc"/>
+</div>
+<div class="p-5">
+<div class="mb-2 flex items-center justify-between">
+<span class="text-xs font-bold text-primary uppercase">Exam Prep</span>
+<span class="rounded-full bg-accent px-2 py-0.5 text-[10px] font-bold text-white uppercase">Premium</span>
+</div>
+<h4 class="font-bold">Exam Checklist</h4>
+<p class="mt-2 text-sm text-slate-500">The final 48-hour routine used for a 50 study score.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Student Referrals Section -->
+<section class="py-24" id="referrals">
+<div class="mx-auto max-w-7xl px-6">
+<div class="mb-16 text-center">
+<h2 class="text-3xl font-black tracking-tight md:text-5xl">What Students Say</h2>
+</div>
+<div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+<div class="rounded-2xl border border-slate-200 dark:border-slate-800 p-8">
+<div class="flex gap-1 text-accent">
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+</div>
+<p class="mt-6 italic text-slate-600 dark:text-slate-400">"My score went from a predicted 32 to a raw 46. The essay feedback was incredibly detailed and really helped me understand what I was missing."</p>
+<div class="mt-8 flex items-center gap-4">
+<div class="h-12 w-12 rounded-full bg-slate-200"></div>
+<div>
+<h5 class="font-bold italic">Sarah M.</h5>
+<p class="text-xs text-slate-500">Class of 2023</p>
+</div>
+</div>
+</div>
+<div class="rounded-2xl border border-slate-200 dark:border-slate-800 p-8">
+<div class="flex gap-1 text-accent">
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+</div>
+<p class="mt-6 italic text-slate-600 dark:text-slate-400">"The Argument Analysis framework is a game changer. I used to struggle with timing, but now I can finish a full analysis in 50 minutes."</p>
+<div class="mt-8 flex items-center gap-4">
+<div class="h-12 w-12 rounded-full bg-slate-200"></div>
+<div>
+<h5 class="font-bold italic">James T.</h5>
+<p class="text-xs text-slate-500">Class of 2023</p>
+</div>
+</div>
+</div>
+<div class="rounded-2xl border border-slate-200 dark:border-slate-800 p-8">
+<div class="flex gap-1 text-accent">
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+<span class="material-symbols-outlined fill-1">star</span>
+</div>
+<p class="mt-6 italic text-slate-600 dark:text-slate-400">"Learning from a 50 scorer made such a difference. They knew exactly how to tweak my writing to impress the examiners."</p>
+<div class="mt-8 flex items-center gap-4">
+<div class="h-12 w-12 rounded-full bg-slate-200"></div>
+<div>
+<h5 class="font-bold italic">Chloe L.</h5>
+<p class="text-xs text-slate-500">Class of 2023</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="py-24 px-6" id="contact">
+<div class="mx-auto max-w-5xl overflow-hidden rounded-[2rem] bg-primary px-8 py-16 text-center text-white md:px-16">
+<h2 class="text-4xl font-black md:text-5xl">Ready to Aim for Your Own 50?</h2>
+<p class="mx-auto mt-6 max-w-2xl text-lg text-white/80">Limited spots available for the upcoming semester. Book your diagnostic session today.</p>
+<div class="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
+<button class="h-14 w-full rounded-xl bg-accent px-8 text-lg font-bold text-primary sm:w-auto hover:bg-accent/90 transition-colors">
+                        Book Your Free Consultation
+                    </button>
+<button class="h-14 w-full rounded-xl border-2 border-white/20 px-8 text-lg font-bold text-white sm:w-auto hover:bg-white/10 transition-colors">
+                        View Pricing
+                    </button>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-background-dark py-12">
+<div class="mx-auto max-w-7xl px-6">
+<div class="flex flex-col items-center justify-between gap-8 md:flex-row">
+<div class="flex items-center gap-2">
+<div class="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-white">
+<span class="material-symbols-outlined text-sm">school</span>
+</div>
+<span class="text-lg font-bold text-slate-900 dark:text-white">VCE English Mastery</span>
+</div>
+<div class="flex gap-8 text-sm font-medium text-slate-500">
+<a class="hover:text-primary" href="#">Privacy Policy</a>
+<a class="hover:text-primary" href="#">Terms of Service</a>
+<a class="hover:text-primary" href="#">FAQ</a>
+</div>
+<div class="flex gap-4">
+<a class="flex h-10 w-10 items-center justify-center rounded-full bg-slate-100 dark:bg-slate-800 hover:bg-primary/10 hover:text-primary transition-all" href="#">
+<span class="material-symbols-outlined">mail</span>
+</a>
+<a class="flex h-10 w-10 items-center justify-center rounded-full bg-slate-100 dark:bg-slate-800 hover:bg-primary/10 hover:text-primary transition-all" href="#">
+<span class="material-symbols-outlined">group</span>
+</a>
+</div>
+</div>
+<div class="mt-12 text-center text-xs text-slate-400">
+                    © 2024 VCE English Mastery. Designed for high achievers.
+                </div>
+</div>
+</footer>
+</div>
+</body></html>
+
+<!-- VCE Study Notes Vault -->
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#0f49bd",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#101622",
+                    },
+                    fontFamily: {
+                        "display": ["Inter"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<title>Study Notes Vault | VCE English Mastery</title>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-slate-200 dark:border-slate-800 px-6 md:px-20 py-4 bg-white dark:bg-slate-900">
+<div class="flex items-center gap-8">
+<div class="flex items-center gap-4 text-primary">
+<div class="size-8">
+<svg fill="currentColor" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M12.0799 24L4 19.2479L9.95537 8.75216L18.04 13.4961L18.0446 4H29.9554L29.96 13.4961L38.0446 8.75216L44 19.2479L35.92 24L44 28.7521L38.0446 39.2479L29.96 34.5039L29.9554 44H18.0446L18.04 34.5039L9.95537 39.2479L4 28.7521L12.0799 24Z" fill-rule="evenodd"></path>
+</svg>
+</div>
+<h2 class="text-slate-900 dark:text-white text-xl font-bold leading-tight tracking-tight">VCE English Mastery</h2>
+</div>
+<nav class="hidden lg:flex items-center gap-9">
+<a class="text-slate-600 dark:text-slate-300 text-sm font-medium hover:text-primary transition-colors" href="#">Home</a>
+<a class="text-primary text-sm font-bold border-b-2 border-primary pb-1" href="#">Study Vault</a>
+<a class="text-slate-600 dark:text-slate-300 text-sm font-medium hover:text-primary transition-colors" href="#">Tutoring</a>
+<a class="text-slate-600 dark:text-slate-300 text-sm font-medium hover:text-primary transition-colors" href="#">Pricing</a>
+<a class="text-slate-600 dark:text-slate-300 text-sm font-medium hover:text-primary transition-colors" href="#">About</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<button class="hidden sm:flex items-center justify-center rounded-lg h-10 px-4 bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-white text-sm font-bold hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors">
+                        Log In
+                    </button>
+<button class="flex items-center justify-center rounded-lg h-10 px-6 bg-primary text-white text-sm font-bold shadow-lg shadow-primary/20 hover:bg-primary/90 transition-all">
+                        Sign Up
+                    </button>
+</div>
+</header>
+<main class="flex-1 max-w-[1200px] mx-auto w-full px-6 py-10">
+<section class="flex flex-col md:flex-row justify-between items-start md:items-end gap-6 mb-12">
+<div class="max-w-2xl">
+<h1 class="text-slate-900 dark:text-white text-5xl font-black leading-tight tracking-tight mb-4">Study Notes Vault</h1>
+<p class="text-slate-600 dark:text-slate-400 text-lg">Access our curated library of high-scoring resources, tailored for Section A, B, and C of the VCE English curriculum. Expertly crafted for the new study design.</p>
+</div>
+<div class="flex flex-col items-end gap-3 w-full md:w-auto">
+<div class="flex items-center gap-2 text-primary font-semibold text-sm bg-primary/10 px-3 py-1 rounded-full">
+<span class="material-symbols-outlined text-sm">verified</span>
+                            99.95 ATAR Verified Resources
+                        </div>
+<button class="flex w-full md:w-auto min-w-[200px] items-center justify-center rounded-xl h-12 px-6 bg-slate-900 dark:bg-white text-white dark:text-slate-900 text-sm font-bold hover:scale-[1.02] transition-transform">
+                            Upgrade to Premium
+                        </button>
+</div>
+</section>
+<div class="sticky top-0 z-10 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md pb-6">
+<div class="flex flex-col gap-4">
+<div class="flex border-b border-slate-200 dark:border-slate-800 overflow-x-auto no-scrollbar">
+<button class="flex items-center justify-center border-b-2 border-primary text-primary px-6 pb-4 font-bold text-sm whitespace-nowrap">
+                                All Resources
+                            </button>
+<button class="flex items-center justify-center border-b-2 border-transparent text-slate-500 hover:text-slate-800 dark:hover:text-slate-200 px-6 pb-4 font-medium text-sm whitespace-nowrap transition-colors">
+                                Section A: Text Response
+                            </button>
+<button class="flex items-center justify-center border-b-2 border-transparent text-slate-500 hover:text-slate-800 dark:hover:text-slate-200 px-6 pb-4 font-medium text-sm whitespace-nowrap transition-colors">
+                                Section B: Argument Analysis
+                            </button>
+<button class="flex items-center justify-center border-b-2 border-transparent text-slate-500 hover:text-slate-800 dark:hover:text-slate-200 px-6 pb-4 font-medium text-sm whitespace-nowrap transition-colors">
+                                Section C: Creating Texts
+                            </button>
+</div>
+<div class="flex flex-wrap items-center gap-3">
+<div class="relative flex-1 min-w-[300px]">
+<span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-slate-400">search</span>
+<input class="w-full h-12 pl-12 pr-4 rounded-xl border-none bg-white dark:bg-slate-800 shadow-sm focus:ring-2 focus:ring-primary dark:text-white placeholder:text-slate-400" placeholder="Search guides, flowcharts, or specific texts..." type="text"/>
+</div>
+<div class="flex gap-2">
+<button class="flex items-center gap-2 rounded-xl h-12 px-4 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700 font-medium text-sm">
+<span class="material-symbols-outlined text-[20px]">filter_list</span>
+                                    Filter
+                                </button>
+<button class="flex items-center gap-2 rounded-xl h-12 px-4 bg-white dark:bg-slate-800 text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-slate-700 font-medium text-sm">
+<span class="material-symbols-outlined text-[20px]">sort</span>
+                                    Sort: Newest
+                                </button>
+</div>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-4">
+<div class="group relative bg-white dark:bg-slate-900 rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-slate-200 dark:border-slate-800">
+<div class="h-48 w-full bg-primary/5 flex items-center justify-center relative">
+<span class="material-symbols-outlined text-6xl text-primary/40">description</span>
+<div class="absolute top-4 left-4 bg-green-500 text-white text-[10px] font-bold px-2 py-1 rounded-full uppercase tracking-wider">Free Sample</div>
+</div>
+<div class="p-6">
+<div class="flex items-center gap-2 mb-3">
+<span class="text-xs font-bold text-primary uppercase tracking-widest">Section A</span>
+<span class="text-slate-300">•</span>
+<span class="text-xs text-slate-500 font-medium">12 Pages</span>
+</div>
+<h3 class="text-xl font-bold text-slate-900 dark:text-white mb-2">Text Response Guide: Foundation</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm mb-6 line-clamp-2">The ultimate breakdown of how to structure high-scoring body paragraphs for any VCE text.</p>
+<button class="w-full py-3 bg-slate-100 dark:bg-slate-800 rounded-lg text-slate-900 dark:text-white font-bold text-sm hover:bg-primary hover:text-white transition-colors">Download PDF</button>
+</div>
+</div>
+<div class="group relative bg-white dark:bg-slate-900 rounded-xl overflow-hidden shadow-sm border border-slate-200 dark:border-slate-800">
+<div class="h-48 w-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center relative overflow-hidden">
+<div class="absolute inset-0 bg-slate-900/60 backdrop-blur-[2px] z-10 flex flex-col items-center justify-center text-white">
+<span class="material-symbols-outlined text-4xl mb-2">lock</span>
+<span class="font-bold text-sm">Premium Resource</span>
+</div>
+<span class="material-symbols-outlined text-6xl text-slate-300">menu_book</span>
+</div>
+<div class="p-6 opacity-80">
+<div class="flex items-center gap-2 mb-3">
+<span class="text-xs font-bold text-primary uppercase tracking-widest">Lexical Bank</span>
+<span class="text-slate-300">•</span>
+<span class="text-xs text-slate-500 font-medium">Updated 2024</span>
+</div>
+<h3 class="text-xl font-bold text-slate-900 dark:text-white mb-2">Lexical Bank 2.0 (Vocabulary)</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm mb-6 line-clamp-2">500+ sophisticated words categorized by tone, argument type, and character analysis.</p>
+<button class="w-full py-3 bg-primary/10 text-primary rounded-lg font-bold text-sm flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-sm">bolt</span>
+                                Unlock with Premium
+                            </button>
+</div>
+</div>
+<div class="group relative bg-white dark:bg-slate-900 rounded-xl overflow-hidden shadow-sm border border-slate-200 dark:border-slate-800">
+<div class="h-48 w-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center relative overflow-hidden">
+<div class="absolute inset-0 bg-slate-900/60 backdrop-blur-[2px] z-10 flex flex-col items-center justify-center text-white">
+<span class="material-symbols-outlined text-4xl mb-2">lock</span>
+<span class="font-bold text-sm">Premium Resource</span>
+</div>
+<span class="material-symbols-outlined text-6xl text-slate-300">account_tree</span>
+</div>
+<div class="p-6 opacity-80">
+<div class="flex items-center gap-2 mb-3">
+<span class="text-xs font-bold text-primary uppercase tracking-widest">Section B</span>
+<span class="text-slate-300">•</span>
+<span class="text-xs text-slate-500 font-medium">Cheat Sheet</span>
+</div>
+<h3 class="text-xl font-bold text-slate-900 dark:text-white mb-2">Argument Analysis Flowchart</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm mb-6 line-clamp-2">A step-by-step visual logic map for identifying and connecting contention, tone, and audience impact.</p>
+<button class="w-full py-3 bg-primary/10 text-primary rounded-lg font-bold text-sm flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-sm">bolt</span>
+                                Unlock with Premium
+                            </button>
+</div>
+</div>
+<div class="group relative bg-white dark:bg-slate-900 rounded-xl overflow-hidden shadow-sm border border-slate-200 dark:border-slate-800">
+<div class="h-48 w-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center relative overflow-hidden">
+<div class="absolute inset-0 bg-slate-900/60 backdrop-blur-[2px] z-10 flex flex-col items-center justify-center text-white">
+<span class="material-symbols-outlined text-4xl mb-2">lock</span>
+<span class="font-bold text-sm">Premium Resource</span>
+</div>
+<span class="material-symbols-outlined text-6xl text-slate-300">fact_check</span>
+</div>
+<div class="p-6 opacity-80">
+<div class="flex items-center gap-2 mb-3">
+<span class="text-xs font-bold text-primary uppercase tracking-widest">Exams</span>
+<span class="text-slate-300">•</span>
+<span class="text-xs text-slate-500 font-medium">Model Response</span>
+</div>
+<h3 class="text-xl font-bold text-slate-900 dark:text-white mb-2">A+ Sample Essay Pack</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm mb-6 line-clamp-2">Ten full-mark essays with detailed examiner annotations explaining why they scored a 10/10.</p>
+<button class="w-full py-3 bg-primary/10 text-primary rounded-lg font-bold text-sm flex items-center justify-center gap-2">
+<span class="material-symbols-outlined text-sm">bolt</span>
+                                Unlock with Premium
+                            </button>
+</div>
+</div>
+<div class="group relative bg-white dark:bg-slate-900 rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-slate-200 dark:border-slate-800">
+<div class="h-48 w-full bg-primary/5 flex items-center justify-center relative">
+<span class="material-symbols-outlined text-6xl text-primary/40">mic</span>
+<div class="absolute top-4 left-4 bg-green-500 text-white text-[10px] font-bold px-2 py-1 rounded-full uppercase tracking-wider">Free Sample</div>
+</div>
+<div class="p-6">
+<div class="flex items-center gap-2 mb-3">
+<span class="text-xs font-bold text-primary uppercase tracking-widest">Section C</span>
+<span class="text-slate-300">•</span>
+<span class="text-xs text-slate-500 font-medium">Script Template</span>
+</div>
+<h3 class="text-xl font-bold text-slate-900 dark:text-white mb-2">Oral Presentation Pitch Guide</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm mb-6 line-clamp-2">Master the 'Statement of Intention' and learn how to draft a persuasive speech that resonates.</p>
+<button class="w-full py-3 bg-slate-100 dark:bg-slate-800 rounded-lg text-slate-900 dark:text-white font-bold text-sm hover:bg-primary hover:text-white transition-colors">Download PDF</button>
+</div>
+</div>
+<div class="group relative bg-white dark:bg-slate-900 rounded-xl overflow-hidden shadow-sm border border-slate-200 dark:border-slate-800 flex flex-col items-center justify-center p-8 text-center bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-primary/10 via-transparent to-transparent">
+<div class="size-16 rounded-full bg-primary/20 flex items-center justify-center text-primary mb-4">
+<span class="material-symbols-outlined text-3xl">add</span>
+</div>
+<h3 class="text-xl font-bold text-slate-900 dark:text-white mb-2">And 50+ More...</h3>
+<p class="text-slate-500 text-sm mb-6">Our vault grows weekly with new study guides, quotes lists, and comparative frameworks.</p>
+<button class="px-6 py-2 border-2 border-primary text-primary rounded-lg font-bold text-sm hover:bg-primary hover:text-white transition-colors">See Subscription Plans</button>
+</div>
+</div>
+<div class="mt-20 p-8 md:p-12 rounded-2xl bg-slate-900 dark:bg-primary relative overflow-hidden">
+<div class="absolute top-0 right-0 w-64 h-64 bg-primary/30 rounded-full -translate-y-1/2 translate-x-1/2 blur-3xl"></div>
+<div class="relative z-10 flex flex-col md:flex-row items-center justify-between gap-8">
+<div class="max-w-xl">
+<h2 class="text-white text-3xl font-bold mb-4">Master VCE English with Premium</h2>
+<p class="text-slate-300 dark:text-white/80 text-lg">Unlock all 60+ resources, full comparative study packs, and priority support for just $14.99/mo.</p>
+</div>
+<div class="flex flex-col sm:flex-row gap-4 w-full md:w-auto">
+<button class="px-8 py-4 bg-white text-primary rounded-xl font-black text-sm uppercase tracking-widest shadow-xl hover:scale-105 transition-transform">Get Started Now</button>
+<button class="px-8 py-4 bg-transparent border border-white/30 text-white rounded-xl font-bold text-sm hover:bg-white/10 transition-colors">Learn More</button>
+</div>
+</div>
+</div>
+</main>
+<footer class="mt-20 border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 px-6 md:px-20 py-12">
+<div class="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
+<div class="col-span-1 md:col-span-1">
+<div class="flex items-center gap-3 text-primary mb-6">
+<div class="size-6">
+<svg fill="currentColor" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M12.0799 24L4 19.2479L9.95537 8.75216L18.04 13.4961L18.0446 4H29.9554L29.96 13.4961L38.0446 8.75216L44 19.2479L35.92 24L44 28.7521L38.0446 39.2479L29.96 34.5039L29.9554 44H18.0446L18.04 34.5039L9.95537 39.2479L4 28.7521L12.0799 24Z"></path>
+</svg>
+</div>
+<span class="font-bold text-slate-900 dark:text-white">VCE English Mastery</span>
+</div>
+<p class="text-slate-500 text-sm leading-relaxed">The #1 rated resource hub for Victorian Certificate of Education English students.</p>
+</div>
+<div>
+<h4 class="font-bold text-slate-900 dark:text-white mb-6 uppercase text-xs tracking-widest">Resources</h4>
+<ul class="space-y-4 text-sm text-slate-500 dark:text-slate-400">
+<li><a class="hover:text-primary transition-colors" href="#">Study Guides</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Past Papers</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Lexical Bank</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Sample Essays</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold text-slate-900 dark:text-white mb-6 uppercase text-xs tracking-widest">Company</h4>
+<ul class="space-y-4 text-sm text-slate-500 dark:text-slate-400">
+<li><a class="hover:text-primary transition-colors" href="#">About Us</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Tutors</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Reviews</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Contact</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold text-slate-900 dark:text-white mb-6 uppercase text-xs tracking-widest">Stay Updated</h4>
+<div class="flex gap-2">
+<input class="w-full h-10 px-4 rounded-lg bg-slate-100 dark:bg-slate-800 border-none text-sm" placeholder="Email address" type="email"/>
+<button class="bg-primary text-white size-10 rounded-lg flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-sm">send</span>
+</button>
+</div>
+</div>
+</div>
+<div class="max-w-[1200px] mx-auto mt-12 pt-8 border-t border-slate-100 dark:border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-xs text-slate-400">© 2024 VCE English Mastery. All rights reserved.</p>
+<div class="flex gap-6">
+<a class="text-xs text-slate-400 hover:text-primary" href="#">Privacy Policy</a>
+<a class="text-xs text-slate-400 hover:text-primary" href="#">Terms of Service</a>
+</div>
+</div>
+</footer>
+</div>
+</div>
+</body></html>
+
+<!-- About Me & Referrals -->
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#0f49bd",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#101622",
+                    },
+                    fontFamily: {
+                        "display": ["Inter"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<title>About Me | VCE English Mastery</title>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 transition-colors duration-300">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-slate-200 dark:border-slate-800 px-6 md:px-20 py-4 bg-white dark:bg-slate-900">
+<div class="flex items-center gap-3 text-primary">
+<div class="size-6">
+<span class="material-symbols-outlined text-3xl">menu_book</span>
+</div>
+<h2 class="text-slate-900 dark:text-slate-100 text-lg font-bold leading-tight tracking-tight">VCE Mastery</h2>
+</div>
+<div class="flex flex-1 justify-end gap-8 items-center">
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-slate-600 dark:text-slate-400 hover:text-primary dark:hover:text-primary text-sm font-medium transition-colors" href="#">Home</a>
+<a class="text-primary text-sm font-semibold" href="#">About</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-primary dark:hover:text-primary text-sm font-medium transition-colors" href="#">Resources</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-primary dark:hover:text-primary text-sm font-medium transition-colors" href="#">Contact</a>
+</nav>
+<button class="flex min-w-[120px] cursor-pointer items-center justify-center rounded-lg h-10 px-5 bg-primary text-white text-sm font-bold hover:opacity-90 transition-opacity">
+<span>Book a Session</span>
+</button>
+</div>
+</header>
+<main class="flex-1">
+<div class="max-w-[1000px] mx-auto px-6 py-12">
+<section class="flex flex-col md:flex-row gap-12 items-center mb-16">
+<div class="flex flex-col items-center md:items-start text-center md:text-left gap-6 flex-1">
+<div class="relative">
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full h-48 w-48 border-4 border-white dark:border-slate-800 shadow-xl" data-alt="Professional portrait of a young male tutor smiling" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBlNQwd48gFHg-5tuE_qEHVw6yOqXlUAdZNMH60HMH2VcfFh_MPRkIs992YVIyN1wxKPkionvzdrwM8_gMXFUPk5rzF-l-867fvLQUSHYON-rCaVCksDYgbi-NRcI6GHl_IvhYKF6Su1Uor6qOK0kSx7pQsp_nbxr6pKhw_jB6p0tSbsLRk7Q3ikwi0qAAlpTMVO3FnbYChsGID__1k5mRKwYl-F2ThA_jqDBtWjE4BEVOANsEUA5MK4dUQoMzLs8l2-QVOJXdODYU");'>
+</div>
+<div class="absolute -bottom-2 -right-2 bg-primary text-white p-2 rounded-full shadow-lg">
+<span class="material-symbols-outlined">verified</span>
+</div>
+</div>
+<div class="space-y-2">
+<h1 class="text-slate-900 dark:text-slate-100 text-4xl font-black tracking-tight">Hi, I'm Alex.</h1>
+<p class="text-primary text-xl font-semibold">VCE English Specialist | Perfect 50 Study Score</p>
+<p class="text-slate-500 dark:text-slate-400 text-lg">Helping students turn anxiety into academic excellence since 2019.</p>
+</div>
+<div class="flex flex-wrap gap-3 justify-center md:justify-start">
+<div class="flex items-center gap-2 px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-sm font-medium">
+<span class="material-symbols-outlined text-lg">location_on</span> Melbourne &amp; Online
+                                </div>
+<div class="flex items-center gap-2 px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-full text-sm font-medium">
+<span class="material-symbols-outlined text-lg">school</span> Monash Law/Arts
+                                </div>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full md:w-auto shrink-0">
+<div class="flex min-w-[180px] flex-col gap-2 rounded-xl p-6 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm">
+<p class="text-slate-500 dark:text-slate-400 text-sm font-medium uppercase tracking-wider">Study Score</p>
+<p class="text-primary tracking-tight text-4xl font-black">50</p>
+<p class="text-xs text-slate-400">Raw Score</p>
+</div>
+<div class="flex min-w-[180px] flex-col gap-2 rounded-xl p-6 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm">
+<p class="text-slate-500 dark:text-slate-400 text-sm font-medium uppercase tracking-wider">Students</p>
+<p class="text-slate-900 dark:text-slate-100 tracking-tight text-4xl font-black">150+</p>
+<p class="text-xs text-slate-400">Successfully Taught</p>
+</div>
+<div class="flex min-w-[180px] flex-col gap-2 rounded-xl p-6 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm">
+<p class="text-slate-500 dark:text-slate-400 text-sm font-medium uppercase tracking-wider">Experience</p>
+<p class="text-slate-900 dark:text-slate-100 tracking-tight text-4xl font-black">5+</p>
+<p class="text-xs text-slate-400">Years Tutoring</p>
+</div>
+<div class="flex min-w-[180px] flex-col gap-2 rounded-xl p-6 bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 shadow-sm">
+<p class="text-slate-500 dark:text-slate-400 text-sm font-medium uppercase tracking-wider">Top 10%</p>
+<p class="text-slate-900 dark:text-slate-100 tracking-tight text-4xl font-black">85%</p>
+<p class="text-xs text-slate-400">Students Achievement</p>
+</div>
+</div>
+</section>
+<section class="grid md:grid-cols-2 gap-12 mb-16">
+<div class="space-y-6">
+<h2 class="text-slate-900 dark:text-slate-100 text-3xl font-bold tracking-tight border-l-4 border-primary pl-4">My Philosophy</h2>
+<div class="space-y-4 text-slate-600 dark:text-slate-300 leading-relaxed text-lg font-display">
+<p>
+                                    VCE English isn't just about reading books; it's about mastering the art of persuasion and analysis. Having achieved a perfect 50, I’ve decoded the VCAA criteria into a repeatable system.
+                                </p>
+<p>
+                                    My approach goes beyond "writing better." We focus on **structural precision**, **sophisticated vocabulary**, and **conceptual depth**. I don't just give feedback; I teach you how to think like an examiner.
+                                </p>
+</div>
+</div>
+<div class="bg-primary/5 dark:bg-primary/10 rounded-2xl p-8 border border-primary/10">
+<h3 class="text-xl font-bold mb-6 flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">lightbulb</span>
+                                What We Focus On
+                            </h3>
+<ul class="space-y-4">
+<li class="flex gap-3">
+<span class="material-symbols-outlined text-primary">check_circle</span>
+<span><strong>Analytical Interpretation:</strong> Moving beyond plot to deep thematic analysis.</span>
+</li>
+<li class="flex gap-3">
+<span class="material-symbols-outlined text-primary">check_circle</span>
+<span><strong>Argument Analysis:</strong> Mastering the 'How' and 'Why' of persuasive language.</span>
+</li>
+<li class="flex gap-3">
+<span class="material-symbols-outlined text-primary">check_circle</span>
+<span><strong>Timed Conditions:</strong> Strategies to write high-scoring essays under pressure.</span>
+</li>
+<li class="flex gap-3">
+<span class="material-symbols-outlined text-primary">check_circle</span>
+<span><strong>Vocabulary Building:</strong> Elevating your expression with precise terminology.</span>
+</li>
+</ul>
+</div>
+</section>
+<section class="mb-16">
+<div class="text-center mb-10">
+<h2 class="text-slate-900 dark:text-slate-100 text-3xl font-bold tracking-tight mb-2">Student Success Stories</h2>
+<p class="text-slate-500 dark:text-slate-400">Real results from students who followed the mastery system.</p>
+</div>
+<div class="grid md:grid-cols-3 gap-6">
+<div class="bg-white dark:bg-slate-900 p-6 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm italic text-slate-600 dark:text-slate-300 relative">
+<span class="material-symbols-outlined absolute top-4 right-4 text-primary/20 text-4xl">format_quote</span>
+<p class="mb-4">"Alex completely changed how I look at English. I went from a C+ average in Year 11 to a 44 study score. His structural templates are a lifesaver."</p>
+<div class="not-italic flex items-center gap-3 border-t border-slate-100 dark:border-slate-800 pt-4">
+<div class="w-10 h-10 rounded-full bg-slate-200 flex items-center justify-center text-slate-500 font-bold">S</div>
+<div>
+<p class="text-sm font-bold text-slate-900 dark:text-slate-100">Sarah M.</p>
+<p class="text-xs text-slate-500">Methodist Ladies' College</p>
+</div>
+</div>
+</div>
+<div class="bg-white dark:bg-slate-900 p-6 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm italic text-slate-600 dark:text-slate-300 relative">
+<span class="material-symbols-outlined absolute top-4 right-4 text-primary/20 text-4xl">format_quote</span>
+<p class="mb-4">"The best part about Alex's tutoring is the specific feedback. He doesn't just say 'improve this,' he shows you exactly how to rewrite the sentence."</p>
+<div class="not-italic flex items-center gap-3 border-t border-slate-100 dark:border-slate-800 pt-4">
+<div class="w-10 h-10 rounded-full bg-slate-200 flex items-center justify-center text-slate-500 font-bold">J</div>
+<div>
+<p class="text-sm font-bold text-slate-900 dark:text-slate-100">James T.</p>
+<p class="text-xs text-slate-500">Scotch College</p>
+</div>
+</div>
+</div>
+<div class="bg-white dark:bg-slate-900 p-6 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm italic text-slate-600 dark:text-slate-300 relative">
+<span class="material-symbols-outlined absolute top-4 right-4 text-primary/20 text-4xl">format_quote</span>
+<p class="mb-4">"I never thought I could get a 40+ in English. Alex made the complex easy to understand. His knowledge of the VCAA criteria is unmatched."</p>
+<div class="not-italic flex items-center gap-3 border-t border-slate-100 dark:border-slate-800 pt-4">
+<div class="w-10 h-10 rounded-full bg-slate-200 flex items-center justify-center text-slate-500 font-bold">L</div>
+<div>
+<p class="text-sm font-bold text-slate-900 dark:text-slate-100">Lachlan R.</p>
+<p class="text-xs text-slate-500">Melbourne Grammar</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="bg-slate-900 rounded-2xl p-10 text-center text-white relative overflow-hidden">
+<div class="absolute inset-0 opacity-10" data-alt="Abstract geometric dot pattern" style="background-image: radial-gradient(#ffffff 1px, transparent 1px); background-size: 20px 20px;">
+</div>
+<div class="relative z-10">
+<h2 class="text-3xl font-bold mb-4">Ready to elevate your English score?</h2>
+<p class="text-slate-400 mb-8 max-w-2xl mx-auto">Limited slots available for the 2024 academic year. Book a free 15-minute consultation to discuss your goals.</p>
+<div class="flex flex-col sm:flex-row gap-4 justify-center">
+<button class="bg-primary text-white px-8 py-3 rounded-lg font-bold hover:scale-105 transition-transform">
+                                    Book Initial Session
+                                </button>
+<button class="bg-white/10 text-white border border-white/20 px-8 py-3 rounded-lg font-bold hover:bg-white/20 transition-colors">
+                                    Download Free Essay Guide
+                                </button>
+</div>
+</div>
+</section>
+</div>
+</main>
+<footer class="bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 py-10 px-6 md:px-20 mt-12">
+<div class="max-w-[1000px] mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+<div class="flex items-center gap-2 text-primary">
+<span class="material-symbols-outlined">menu_book</span>
+<span class="font-bold text-slate-900 dark:text-slate-100">VCE English Mastery</span>
+</div>
+<div class="text-slate-500 text-sm">
+                        © 2024 Alex Tutoring. All rights reserved.
+                    </div>
+<div class="flex gap-4">
+<a class="w-8 h-8 flex items-center justify-center rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:bg-primary hover:text-white transition-colors" href="#">
+<span class="material-symbols-outlined text-lg">mail</span>
+</a>
+<a class="w-8 h-8 flex items-center justify-center rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:bg-primary hover:text-white transition-colors" href="#">
+<span class="material-symbols-outlined text-lg">call</span>
+</a>
+</div>
+</div>
+</footer>
+</div>
+</div>
+</body></html>
+
+<!-- Contact & Booking -->
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Contact Us - Elite Tutoring</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#0f49bd",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#101622",
+                    },
+                    fontFamily: {
+                        "display": ["Inter"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 transition-colors duration-300">
+<div class="relative flex min-h-screen flex-col">
+<!-- Header / Navigation -->
+<header class="sticky top-0 z-50 w-full border-b border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-background-dark/80 backdrop-blur-md">
+<div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-10">
+<div class="flex items-center gap-3">
+<div class="flex h-10 w-10 items-center justify-center rounded-lg bg-primary text-white">
+<span class="material-symbols-outlined">school</span>
+</div>
+<span class="text-xl font-bold tracking-tight text-slate-900 dark:text-white">Elite Tutoring</span>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-semibold text-slate-600 hover:text-primary dark:text-slate-300 dark:hover:text-primary" href="#">Home</a>
+<a class="text-sm font-semibold text-slate-600 hover:text-primary dark:text-slate-300 dark:hover:text-primary" href="#">Tutors</a>
+<a class="text-sm font-semibold text-slate-600 hover:text-primary dark:text-slate-300 dark:hover:text-primary" href="#">Pricing</a>
+<a class="text-sm font-semibold text-slate-600 hover:text-primary dark:text-slate-300 dark:hover:text-primary" href="#">FAQ</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="rounded-lg bg-primary px-5 py-2.5 text-sm font-bold text-white shadow-lg shadow-primary/20 hover:bg-primary/90 transition-all">
+                        Book Trial
+                    </button>
+</div>
+</div>
+</header>
+<main class="flex-grow">
+<!-- Hero / Title Section -->
+<section class="mx-auto max-w-7xl px-6 py-12 lg:px-10">
+<div class="mb-12 text-center md:text-left">
+<h1 class="text-4xl font-black tracking-tight text-slate-900 dark:text-white sm:text-5xl lg:text-6xl">
+                        Get in <span class="text-primary">Touch</span>
+</h1>
+<p class="mt-4 max-w-2xl text-lg text-slate-600 dark:text-slate-400">
+                        Have questions about our tutoring programs or need help finding the right mentor? Our academic advisors are here to support your journey.
+                    </p>
+</div>
+<div class="grid grid-cols-1 gap-12 lg:grid-cols-2">
+<!-- Contact Form Card -->
+<div class="rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/50 p-8 shadow-sm">
+<h2 class="text-2xl font-bold text-slate-900 dark:text-white mb-6">Send us a message</h2>
+<form class="space-y-5">
+<div class="grid grid-cols-1 gap-5 sm:grid-cols-2">
+<div class="space-y-2">
+<label class="text-sm font-medium text-slate-700 dark:text-slate-300">Full Name</label>
+<input class="w-full rounded-lg border-slate-200 bg-slate-50 p-3 text-slate-900 focus:border-primary focus:ring-primary dark:border-slate-700 dark:bg-slate-800 dark:text-white" placeholder="John Doe" type="text"/>
+</div>
+<div class="space-y-2">
+<label class="text-sm font-medium text-slate-700 dark:text-slate-300">Email Address</label>
+<input class="w-full rounded-lg border-slate-200 bg-slate-50 p-3 text-slate-900 focus:border-primary focus:ring-primary dark:border-slate-700 dark:bg-slate-800 dark:text-white" placeholder="john@example.com" type="email"/>
+</div>
+</div>
+<div class="space-y-2">
+<label class="text-sm font-medium text-slate-700 dark:text-slate-300">Subject</label>
+<select class="w-full rounded-lg border-slate-200 bg-slate-50 p-3 text-slate-900 focus:border-primary focus:ring-primary dark:border-slate-700 dark:bg-slate-800 dark:text-white">
+<option>General Inquiry</option>
+<option>Billing Question</option>
+<option>Tutor Application</option>
+<option>Technical Support</option>
+</select>
+</div>
+<div class="space-y-2">
+<label class="text-sm font-medium text-slate-700 dark:text-slate-300">Message</label>
+<textarea class="w-full rounded-lg border-slate-200 bg-slate-50 p-3 text-slate-900 focus:border-primary focus:ring-primary dark:border-slate-700 dark:bg-slate-800 dark:text-white" placeholder="How can we help you?" rows="4"></textarea>
+</div>
+<button class="w-full rounded-lg bg-primary py-4 text-center font-bold text-white transition-opacity hover:opacity-90" type="submit">
+                                Send Message
+                            </button>
+</form>
+</div>
+<!-- Trial Booking & Contact Info -->
+<div class="flex flex-col gap-8">
+<!-- Booking Promo -->
+<div class="rounded-2xl bg-primary p-8 text-white">
+<h3 class="text-2xl font-bold">Book a Free Trial Lesson</h3>
+<p class="mt-2 text-primary-20/90 text-slate-100">Experience a 30-minute session with a top-rated tutor in your subject of choice. No commitment required.</p>
+<div class="mt-6 flex items-center gap-4">
+<div class="flex -space-x-2">
+<div class="h-10 w-10 rounded-full border-2 border-primary bg-slate-200 overflow-hidden">
+<img class="h-full w-full object-cover" data-alt="Female tutor profile picture" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDw6eJlQ5QNNFUmQL04AbRsYX86JjEfDOczb66L6Ae2flwS6cgH-SWPpaNLQc4sqNyNoSnD1R_T7N3bM8VXj2DThNQBws0pMW_zLYDyeGJBfQlSdMDftpMufsyWmlam_YAbMNB5bRipKWfWW0cTwJptZqCj_FJKPjTFVtKGYAnxsAftT1ihnvbNNTfHAFceQWSFuMpmNzpDof3b182dcIRwxmf-i8aOx_ojSuhke6nB2dfQihO9OnL05ZQ_RLncRCtkjAMr_x9DiN8"/>
+</div>
+<div class="h-10 w-10 rounded-full border-2 border-primary bg-slate-200 overflow-hidden">
+<img class="h-full w-full object-cover" data-alt="Male tutor profile picture" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCZvdx-bT4dtnBoyaLCUUXU1BbN6CRPu6Lqt_0JirIoxHlY-lhHI-grHKGzqf-b50UOqwlwZmJd3jt-9pPyu59q5yhbh01a7QbyVhXgCATX995mo3A-P4TWvY2wyw4temcAgofvTQYWVJkTK0urf6gxVWvDeO9NSgP8I2bZjhuGib469mSxPZSOyF8GPULtPvs0XdsMPv0UykzwwJuruz8jeMb_iRN367w66aYrdKP0i7xMbwn7T0Ij0zgq89oKQ2mep3xmxTwTCww"/>
+</div>
+<div class="h-10 w-10 rounded-full border-2 border-primary bg-slate-200 flex items-center justify-center bg-white text-primary text-xs font-bold">+12</div>
+</div>
+<span class="text-sm font-medium">Available tutors online now</span>
+</div>
+<button class="mt-8 w-full rounded-lg bg-white py-3 text-center font-bold text-primary transition-colors hover:bg-slate-100">
+                                Schedule Trial Now
+                            </button>
+</div>
+<!-- Info Cards -->
+<div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+<div class="rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/50 p-6">
+<span class="material-symbols-outlined text-primary mb-3">mail</span>
+<h4 class="font-bold text-slate-900 dark:text-white">Email Us</h4>
+<p class="mt-1 text-sm text-slate-600 dark:text-slate-400">support@elitetutoring.com</p>
+</div>
+<div class="rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/50 p-6">
+<span class="material-symbols-outlined text-primary mb-3">call</span>
+<h4 class="font-bold text-slate-900 dark:text-white">Call Us</h4>
+<p class="mt-1 text-sm text-slate-600 dark:text-slate-400">+1 (555) 000-1234</p>
+</div>
+</div>
+<!-- Map Placeholder -->
+<div class="relative h-48 w-full overflow-hidden rounded-2xl border border-slate-200 dark:border-slate-800">
+<img class="h-full w-full object-cover opacity-80" data-alt="Map showing office location" data-location="San Francisco" src="https://lh3.googleusercontent.com/aida-public/AB6AXuACxTIL0F4ZxUsIAowcLPusXIipdrLZ42O9VL0KJ_IxUaj_1luyE3zspCFjeo5TGx0_HhuSh4xAIkmxTsMlU_wIJCbt_zEFoMIzXRSx09FNjA-WF9hdOlHyenOm56ncTbTFlw3zf1P_MA7A_b3GsaDKCSw__xCJp4jL-GJ4Omgwoa4M1HNkzuaXtITlytcvKaNn1z_vGWS4W_Dd5oMUPOb-RONhLknA7Y-RYbfg9iCxzbQW9xBsZ4VNoY18Dwfl4Pq8uyNQeJvpo5c"/>
+<div class="absolute inset-0 flex items-center justify-center bg-slate-900/10">
+<div class="rounded-full bg-white p-2 text-primary shadow-xl">
+<span class="material-symbols-outlined text-3xl">location_on</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- FAQ Section -->
+<section class="bg-slate-50 dark:bg-slate-900/30 py-20 px-6">
+<div class="mx-auto max-w-3xl">
+<div class="text-center mb-12">
+<h2 class="text-3xl font-black text-slate-900 dark:text-white">Frequently Asked Questions</h2>
+<p class="mt-4 text-slate-600 dark:text-slate-400">Quick answers to common questions about our platform.</p>
+</div>
+<div class="space-y-4">
+<div class="rounded-lg border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-5">
+<button class="flex w-full items-center justify-between text-left">
+<span class="font-bold text-slate-900 dark:text-white">How do I choose the right tutor?</span>
+<span class="material-symbols-outlined text-slate-400">expand_more</span>
+</button>
+<div class="mt-3 text-sm text-slate-600 dark:text-slate-400">
+                                You can browse profiles by subject, level, and ratings. Our academic advisors can also provide personalized recommendations based on your goals.
+                            </div>
+</div>
+<div class="rounded-lg border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-5">
+<button class="flex w-full items-center justify-between text-left">
+<span class="font-bold text-slate-900 dark:text-white">Is the trial lesson really free?</span>
+<span class="material-symbols-outlined text-slate-400">expand_more</span>
+</button>
+<div class="mt-3 text-sm text-slate-600 dark:text-slate-400">
+                                Yes! Every new student is entitled to one free 30-minute trial session with a tutor of their choice to ensure it's a good match.
+                            </div>
+</div>
+<div class="rounded-lg border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-5">
+<button class="flex w-full items-center justify-between text-left">
+<span class="font-bold text-slate-900 dark:text-white">What subjects do you cover?</span>
+<span class="material-symbols-outlined text-slate-400">expand_more</span>
+</button>
+<div class="mt-3 text-sm text-slate-600 dark:text-slate-400">
+                                We cover over 50+ subjects including K-12 core curriculum, AP courses, SAT/ACT prep, and university-level engineering and coding.
+                            </div>
+</div>
+<div class="rounded-lg border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-5">
+<button class="flex w-full items-center justify-between text-left">
+<span class="font-bold text-slate-900 dark:text-white">Can I cancel my subscription?</span>
+<span class="material-symbols-outlined text-slate-400">expand_more</span>
+</button>
+<div class="mt-3 text-sm text-slate-600 dark:text-slate-400">
+                                Absolutely. We offer flexible month-to-month plans. You can pause or cancel your subscription at any time with no hidden fees.
+                            </div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-background-dark py-12">
+<div class="mx-auto max-w-7xl px-6 lg:px-10">
+<div class="flex flex-col items-center justify-between gap-6 md:flex-row">
+<div class="flex items-center gap-3">
+<div class="flex h-8 w-8 items-center justify-center rounded bg-primary text-white">
+<span class="material-symbols-outlined text-sm">school</span>
+</div>
+<span class="text-lg font-bold text-slate-900 dark:text-white">Elite Tutoring</span>
+</div>
+<p class="text-sm text-slate-500 dark:text-slate-400">© 2024 Elite Tutoring Inc. All rights reserved.</p>
+<div class="flex gap-6">
+<a class="text-slate-400 hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined">public</span></a>
+<a class="text-slate-400 hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined">share</span></a>
+<a class="text-slate-400 hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined">alternate_email</span></a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+</body></html>
+
+<!-- Course Masterclass Landing Page -->
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>VCE English: The Perfect 50 Masterclass</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#0f49bd",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#101622",
+                    },
+                    fontFamily: {
+                        "display": ["Inter"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100">
+<div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+<!-- Navigation -->
+<header class="sticky top-0 z-50 w-full border-b border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-background-dark/80 backdrop-blur-md">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex h-16 items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-3xl">menu_book</span>
+<h2 class="text-slate-900 dark:text-white text-lg font-bold tracking-tight">VCE Masterclass</h2>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#curriculum">Curriculum</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#benefits">Benefits</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#pricing">Pricing</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#testimonials">Testimonials</a>
+</nav>
+<button class="bg-primary text-white text-sm font-bold px-6 py-2 rounded-lg hover:bg-primary/90 transition-all">
+                        Enroll Now
+                    </button>
+</div>
+</div>
+</header>
+<main class="flex-1">
+<!-- Hero Section -->
+<section class="relative py-20 lg:py-32 overflow-hidden">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid lg:grid-cols-2 gap-12 items-center">
+<div class="flex flex-col gap-8">
+<div class="inline-flex items-center rounded-full bg-primary/10 px-3 py-1 text-sm font-medium text-primary ring-1 ring-inset ring-primary/20">
+                                Trusted by 5,000+ Students
+                            </div>
+<h1 class="text-4xl md:text-6xl font-black tracking-tight text-slate-900 dark:text-white leading-[1.1]">
+                                VCE English: The <span class="text-primary">Perfect 50</span> Masterclass
+                            </h1>
+<p class="text-lg text-slate-600 dark:text-slate-400 leading-relaxed">
+                                Unlock the secrets to a perfect score with our comprehensive guide to Section A, B, and C. Expert guidance, examiner insights, and high-scoring templates to ace your exams.
+                            </p>
+<div class="flex flex-wrap gap-4">
+<button class="bg-primary text-white text-base font-bold px-8 py-4 rounded-xl hover:shadow-lg hover:shadow-primary/30 transition-all">
+                                    Get Started Now
+                                </button>
+<button class="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-900 dark:text-white text-base font-bold px-8 py-4 rounded-xl hover:bg-slate-50 dark:hover:bg-slate-700 transition-all">
+                                    View Sample Lesson
+                                </button>
+</div>
+</div>
+<div class="relative">
+<div class="aspect-video w-full rounded-2xl overflow-hidden shadow-2xl bg-slate-200 dark:bg-slate-800" data-alt="A focused student studying English literature with highlighters and notebooks" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCFqErdlloZ4PSRJJaLHDtvz7Ye2cg8WitiN9Fj4Z4KQjVXDa5_hr0HtDDP0Ut5QO6_STY1mZuwJjFo8AdRaixEhkgiDJoyAPPadv1WQIG6siSssfVZ43hUZoI9y8_yKvlKkHfSz0BjrbE399TsU6ESzL5iJi4uoGVDvOf1rlHsDUF-6H4yzeVHXOXuIPZNs1YBq71wCxDj1wfIcULy_MXMm12sTF2eiCBJnaTHdl342o5oI4Ts8LJiap5TahX0YyIeu-oLyRmuMzo')">
+<div class="absolute inset-0 flex items-center justify-center bg-black/20 group cursor-pointer hover:bg-black/30 transition-all">
+<div class="h-20 w-20 rounded-full bg-white/90 flex items-center justify-center text-primary shadow-xl">
+<span class="material-symbols-outlined text-4xl leading-none">play_arrow</span>
+</div>
+</div>
+</div>
+<!-- Floating Badge -->
+<div class="absolute -bottom-6 -left-6 bg-white dark:bg-slate-800 p-4 rounded-xl shadow-xl flex items-center gap-4 border border-slate-100 dark:border-slate-700">
+<div class="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">workspace_premium</span>
+</div>
+<div>
+<p class="text-sm font-bold">2023 Top Results</p>
+<p class="text-xs text-slate-500">92% scored 40+ raw</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Curriculum Breakdown -->
+<section class="py-24 bg-white dark:bg-slate-900/50" id="curriculum">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center max-w-3xl mx-auto mb-16">
+<h2 class="text-3xl md:text-4xl font-bold tracking-tight mb-4">The Ultimate Curriculum</h2>
+<p class="text-slate-600 dark:text-slate-400">Master every component of the VCE English study design with deep dives into each section, featuring our unique high-scoring frameworks.</p>
+</div>
+<div class="grid md:grid-cols-3 gap-8">
+<!-- Section A -->
+<div class="p-8 rounded-2xl bg-background-light dark:bg-slate-800 border border-slate-200 dark:border-slate-700 hover:border-primary transition-colors group">
+<div class="h-12 w-12 rounded-lg bg-primary text-white flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined">menu_book</span>
+</div>
+<h3 class="text-xl font-bold mb-3">Section A: Analytical Interpretation</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-6">Master the art of text response with structural frameworks, thematic deep-dives, and high-level vocabulary lists.</p>
+<ul class="space-y-2 text-sm">
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-lg">check_circle</span> Essay Structure Blueprint</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-lg">check_circle</span> Theme &amp; Character Analysis</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-lg">check_circle</span> Prompt Decoding Secrets</li>
+</ul>
+</div>
+<!-- Section B -->
+<div class="p-8 rounded-2xl bg-background-light dark:bg-slate-800 border border-slate-200 dark:border-slate-700 hover:border-primary transition-colors group">
+<div class="h-12 w-12 rounded-lg bg-primary text-white flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined">compare_arrows</span>
+</div>
+<h3 class="text-xl font-bold mb-3">Section B: Comparative Analysis</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-6">Learn how to weave complex comparisons between texts to satisfy every criteria of the comparative study.</p>
+<ul class="space-y-2 text-sm">
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-lg">check_circle</span> Point-by-Point Strategies</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-lg">check_circle</span> Connection Mapping</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-lg">check_circle</span> Comparative Vocabulary</li>
+</ul>
+</div>
+<!-- Section C -->
+<div class="p-8 rounded-2xl bg-background-light dark:bg-slate-800 border border-slate-200 dark:border-slate-700 hover:border-primary transition-colors group">
+<div class="h-12 w-12 rounded-lg bg-primary text-white flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined">campaign</span>
+</div>
+<h3 class="text-xl font-bold mb-3">Section C: Argument Analysis</h3>
+<p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-6">Deconstruct any media piece with precision and speed using our foolproof templates for persuasive language.</p>
+<ul class="space-y-2 text-sm">
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-lg">check_circle</span> Rhetorical Device Bank</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-lg">check_circle</span> Metalanguage Application</li>
+<li class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-lg">check_circle</span> Visual Analysis Guides</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<!-- Benefits / What You Get -->
+<section class="py-24 overflow-hidden" id="benefits">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid lg:grid-cols-2 gap-16 items-center">
+<div>
+<h2 class="text-3xl md:text-4xl font-bold tracking-tight mb-8 leading-tight">Everything You Need to Dominate Your Exams</h2>
+<div class="space-y-6">
+<div class="flex gap-4">
+<div class="flex-shrink-0 h-10 w-10 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">video_library</span>
+</div>
+<div>
+<h4 class="font-bold text-lg mb-1">50+ In-depth Video Lessons</h4>
+<p class="text-slate-600 dark:text-slate-400">Step-by-step video tutorials covering the entire syllabus, accessible 24/7 on any device.</p>
+</div>
+</div>
+<div class="flex gap-4">
+<div class="flex-shrink-0 h-10 w-10 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">description</span>
+</div>
+<div>
+<h4 class="font-bold text-lg mb-1">10+ Sample 10/10 Essays</h4>
+<p class="text-slate-600 dark:text-slate-400">Complete with examiner annotations so you know exactly what they're looking for.</p>
+</div>
+</div>
+<div class="flex gap-4">
+<div class="flex-shrink-0 h-10 w-10 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">forum</span>
+</div>
+<div>
+<h4 class="font-bold text-lg mb-1">Unlimited 1-on-1 Feedback</h4>
+<p class="text-slate-600 dark:text-slate-400">Get your practice essays marked by previous 50-scorers with detailed structural feedback.</p>
+</div>
+</div>
+<div class="flex gap-4">
+<div class="flex-shrink-0 h-10 w-10 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">quiz</span>
+</div>
+<div>
+<h4 class="font-bold text-lg mb-1">Weekly Q&amp;A Sessions</h4>
+<p class="text-slate-600 dark:text-slate-400">Live sessions to answer your specific text questions and clear up confusion before SACs.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="relative bg-primary/5 rounded-3xl p-8 border border-primary/10">
+<div class="bg-white dark:bg-slate-800 rounded-2xl shadow-xl p-6 mb-6">
+<div class="flex items-center gap-3 mb-4">
+<div class="h-10 w-10 rounded-full bg-slate-200" data-alt="Student profile portrait" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBcWeDZTwmNoKWpCTwACra17QMJqB1-d1jM2K5740hGh33b1dfDu_SelCJqKGVjDyW1-Z2iLZj7yz8OApvsInL0zvzBn20PgsOD1yt8rmcEoxKgywpW_YwHfNbiyylweP_EkSGz6-bjc0I-2578XawLEJsqkXWscZ8iB7wBH_ckIVOb0t70dyXzUPpGdFZytlP-BF0TwpTxs8XrWmPufV3LPIXiy9tFUIzQy_CWP39d1N41KAfHdbCS5ednXWpzEdTFpUGNFTbV7Jw')"></div>
+<div>
+<p class="font-bold text-sm">Jessica L. (Class of 2023)</p>
+<div class="flex text-yellow-400">
+<span class="material-symbols-outlined text-xs">star</span>
+<span class="material-symbols-outlined text-xs">star</span>
+<span class="material-symbols-outlined text-xs">star</span>
+<span class="material-symbols-outlined text-xs">star</span>
+<span class="material-symbols-outlined text-xs">star</span>
+</div>
+</div>
+</div>
+<p class="text-sm italic text-slate-600 dark:text-slate-400 italic">"The Section C template alone saved my life during the exam. I went from a C+ in my first SAC to a 48 raw score. Cannot recommend this enough!"</p>
+</div>
+<div class="bg-primary text-white rounded-2xl shadow-xl p-6 ml-12">
+<p class="text-sm font-bold mb-2">Our Results Speak:</p>
+<div class="grid grid-cols-2 gap-4">
+<div>
+<p class="text-3xl font-black">46.2</p>
+<p class="text-[10px] uppercase tracking-wider opacity-80">Average Raw Score</p>
+</div>
+<div>
+<p class="text-3xl font-black">100%</p>
+<p class="text-[10px] uppercase tracking-wider opacity-80">SAC Confidence</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Pricing Section -->
+<section class="py-24 bg-slate-900 text-white" id="pricing">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<h2 class="text-3xl md:text-4xl font-bold mb-4">Invest in Your ATAR</h2>
+<p class="text-slate-400">One-time payment. Lifetime access through your VCE year.</p>
+</div>
+<div class="max-w-md mx-auto relative">
+<div class="absolute -inset-1 bg-gradient-to-r from-primary to-blue-400 rounded-3xl blur opacity-30"></div>
+<div class="relative bg-slate-800 rounded-3xl p-10 border border-slate-700 text-center">
+<h3 class="text-2xl font-bold mb-2 uppercase tracking-widest text-primary">Full Course</h3>
+<div class="flex items-center justify-center gap-1 mb-8">
+<span class="text-2xl font-bold align-top mt-2">$</span>
+<span class="text-6xl font-black">297</span>
+<span class="text-slate-400">/year</span>
+</div>
+<ul class="text-left space-y-4 mb-10">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary mt-0.5">check_circle</span>
+<span>Complete access to all 3 sections</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary mt-0.5">check_circle</span>
+<span>10+ Premium Annotated Sample Essays</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary mt-0.5">check_circle</span>
+<span>Personalised Essay Marking (3 per month)</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary mt-0.5">check_circle</span>
+<span>High-scoring Sentence Stem Bank</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary mt-0.5">check_circle</span>
+<span>Access to private Discord community</span>
+</li>
+</ul>
+<button class="w-full bg-primary text-white py-4 rounded-xl font-bold text-lg hover:scale-[1.02] transition-transform shadow-lg shadow-primary/20">
+                                Enroll in the Masterclass
+                            </button>
+<p class="mt-4 text-xs text-slate-500 italic">30-day "Higher Score" money-back guarantee</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Testimonials -->
+<section class="py-24" id="testimonials">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<h2 class="text-3xl font-bold text-center mb-16">Success Stories</h2>
+<div class="grid md:grid-cols-3 gap-8">
+<div class="bg-white dark:bg-slate-800 p-8 rounded-2xl border border-slate-100 dark:border-slate-700">
+<div class="flex items-center gap-3 mb-6">
+<div class="h-12 w-12 rounded-full bg-slate-200 overflow-hidden" data-alt="Male student smiling portrait" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDXb2I6cYx1Mw6ubQ7AS_fRX5HXdw3nd5DJB_YOu0VKm1F2fwmnU_-E0shFjE39KMz-XVLFXaf0xEVUsiH2xgoIvz2glb9m4cR81YZL7-L2Q-bnQsgLdbYhCiWcKxXkzArMgrGdeZZ2PqWCug1PoT_Kqk27AQVVhe1BvgL53E5acdTTtVPADYKNC0WXd6DS-4MhCpA4eOq7SvxDwm1gkH9CjKueo9ZV0A39eKLBPwJcim7CwW47UKmRPv19XhwUDoQRrVYFDJ_JzAo')"></div>
+<div>
+<p class="font-bold">Tom S.</p>
+<p class="text-xs text-primary font-medium">Raw 50 Scorer</p>
+</div>
+</div>
+<p class="text-slate-600 dark:text-slate-400 leading-relaxed italic">"The content is so much better than what we got at school. It actually breaks down the 'why' behind good writing, not just what to do."</p>
+</div>
+<div class="bg-white dark:bg-slate-800 p-8 rounded-2xl border border-slate-100 dark:border-slate-700">
+<div class="flex items-center gap-3 mb-6">
+<div class="h-12 w-12 rounded-full bg-slate-200 overflow-hidden" data-alt="Female student smiling portrait" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAMGrx4LbGuWz9MQ1pEdbY9MKZwDt7rUGXZP4VZTby4F035BquwQc8yxdfCrhB7PBwdwjrNfwMBf1Na9sPtr5zt69PXC9miU5h7F8Qk8pZdt0Js0S5vZbFMNUAm41OzLpIhfns3k56Jcpz7siPpbftnFWbsJFWQqqAh8MpL6XvIQHR-qylGz_2trStUrC41F2TY-MEWxRvVya1SAhCYvtv8of_lz9ZEKw2faJ0QZVj4sOv0TItQeuylDXjLTeKtG7M0FJU5O998L-Q')"></div>
+<div>
+<p class="font-bold">Sarah K.</p>
+<p class="text-xs text-primary font-medium">Raw 45 Scorer</p>
+</div>
+</div>
+<p class="text-slate-600 dark:text-slate-400 leading-relaxed italic">"English was always my weakest subject. This course made it systematic. The templates for Section B are worth the price alone."</p>
+</div>
+<div class="bg-white dark:bg-slate-800 p-8 rounded-2xl border border-slate-100 dark:border-slate-700">
+<div class="flex items-center gap-3 mb-6">
+<div class="h-12 w-12 rounded-full bg-slate-200 overflow-hidden" data-alt="Male student smiling portrait" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDVLRZRq_aToYyJabJUZqG6v1Xv0btn3MLHd4bxgayQ9NjJBIvj3Zlpn9Gqnc0Yeet7E_48NXWMBXgXLhO0cxW4aHGmC-3OYzfi15QxNwyBpgniWCQRw26EG0ydhf3ovqp1i8utQX6i4QuKOXx2zS-70GWfnXmCmOtxOEpl1GGn4NRqAvXEwZCvU7GOYMJaJCt7LRoCL0vf-8naVCWQIoTknOw_Y8t-4lySA-uhfD7ZHaMu8kn__T60LZo4DXW_zMOdYQZ-HaT5jDo')"></div>
+<div>
+<p class="font-bold">Ryan M.</p>
+<p class="text-xs text-primary font-medium">Raw 42 Scorer</p>
+</div>
+</div>
+<p class="text-slate-600 dark:text-slate-400 leading-relaxed italic">"I was struggling with time management in Section C. After learning the deconstruction framework, I finished 15 minutes early in the final exam."</p>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-background-light dark:bg-slate-900 py-12 border-t border-slate-200 dark:border-slate-800">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid md:grid-cols-4 gap-8">
+<div class="col-span-2">
+<div class="flex items-center gap-2 mb-4">
+<span class="material-symbols-outlined text-primary text-2xl">menu_book</span>
+<h2 class="text-lg font-bold">VCE English Masterclass</h2>
+</div>
+<p class="text-slate-500 dark:text-slate-400 text-sm max-w-sm">Helping VCE students achieve their potential through expert curriculum design and high-scoring strategies. Made by students, for students.</p>
+</div>
+<div>
+<h4 class="font-bold mb-4">Resources</h4>
+<ul class="text-sm space-y-2 text-slate-500 dark:text-slate-400">
+<li><a class="hover:text-primary transition-colors" href="#">Free Essay Guide</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Study Templates</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Exam Countdown</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold mb-4">Support</h4>
+<ul class="text-sm space-y-2 text-slate-500 dark:text-slate-400">
+<li><a class="hover:text-primary transition-colors" href="#">Contact Us</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Refund Policy</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Terms of Service</a></li>
+</ul>
+</div>
+</div>
+<div class="mt-12 pt-8 border-t border-slate-200 dark:border-slate-800 text-center text-xs text-slate-500">
+                    © 2024 VCE Masterclass. All rights reserved. VCE is a registered trademark of the VCAA.
+                </div>
+</div>
+</footer>
+</div>
+</body></html>
+
+<!-- Student Dashboard -->
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>VCE English Mastery - Student Dashboard</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#0f49bd",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#101622",
+                    },
+                    fontFamily: {
+                        "display": ["Inter"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 min-h-screen">
+<div class="relative flex min-h-screen flex-col">
+<!-- Top Navigation -->
+<header class="sticky top-0 z-50 w-full border-b border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-background-dark/80 backdrop-blur-md px-4 md:px-10 py-3">
+<div class="max-w-7xl mx-auto flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="bg-primary text-white p-1.5 rounded-lg">
+<span class="material-symbols-outlined block">auto_stories</span>
+</div>
+<h2 class="text-slate-900 dark:text-white text-lg font-bold tracking-tight">VCE English Mastery</h2>
+</div>
+<div class="flex flex-1 justify-end items-center gap-4 md:gap-8">
+<label class="hidden md:flex items-center relative min-w-64">
+<span class="material-symbols-outlined absolute left-3 text-slate-400">search</span>
+<input class="w-full h-10 pl-10 pr-4 rounded-lg border-none bg-slate-100 dark:bg-slate-800 text-slate-900 dark:text-slate-100 focus:ring-2 focus:ring-primary/50 text-sm" placeholder="Search resources..." type="text"/>
+</label>
+<div class="flex items-center gap-2">
+<button class="p-2 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:text-primary transition-colors">
+<span class="material-symbols-outlined">notifications</span>
+</button>
+<button class="p-2 rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:text-primary transition-colors">
+<span class="material-symbols-outlined">settings</span>
+</button>
+<div class="h-8 w-px bg-slate-200 dark:bg-slate-700 mx-1"></div>
+<div class="flex items-center gap-3">
+<div class="hidden sm:block text-right">
+<p class="text-sm font-semibold leading-none">Alex Rivera</p>
+<p class="text-xs text-slate-500 dark:text-slate-400">Year 12 Student</p>
+</div>
+<div class="size-10 rounded-full bg-primary/10 border-2 border-primary/20 flex items-center justify-center overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Professional student profile headshot" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBFEqryXUINn3NwSgAVk6M_RnLNNYgpJo-Wnwi0wvyrTo6MimPlOsF3cnYTCAidz7oL8fv6yYbEJJqL-zzdCO5k3VnzIExB_awkxzAz_BUNOdYObZ9AWJnuQUkgxnA3ybpP0VzoLi8fKYzufqkr56LmKhF6EYqQjipd2M4ny-bL4UEXaeFl1I-1RN8Rl47Z8VGwdq5GneCNBO9hwFMAEhgTBETVN0cGCvJCIb_xg7-ZzY5sf8BG_AwtI5BBTB5TwsbRJL2rTF9Bkjk"/>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div class="flex flex-1 max-w-7xl mx-auto w-full">
+<!-- Sidebar Navigation -->
+<aside class="hidden lg:flex w-64 flex-col border-r border-slate-200 dark:border-slate-800 p-6 gap-8">
+<nav class="flex flex-col gap-2">
+<a class="flex items-center gap-3 px-4 py-3 rounded-xl bg-primary text-white font-medium" href="#">
+<span class="material-symbols-outlined">dashboard</span>
+                        Dashboard
+                    </a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-xl text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors font-medium" href="#">
+<span class="material-symbols-outlined">school</span>
+                        My Courses
+                    </a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-xl text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors font-medium" href="#">
+<span class="material-symbols-outlined">download</span>
+                        My Downloads
+                    </a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-xl text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors font-medium" href="#">
+<span class="material-symbols-outlined">description</span>
+                        Resources
+                    </a>
+<a class="flex items-center gap-3 px-4 py-3 rounded-xl text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors font-medium" href="#">
+<span class="material-symbols-outlined">quiz</span>
+                        Practice SACs
+                    </a>
+</nav>
+<div class="mt-auto p-4 rounded-2xl bg-primary/5 border border-primary/10">
+<p class="text-xs font-bold text-primary uppercase tracking-wider mb-2">Exam Countdown</p>
+<div class="flex items-end gap-1">
+<span class="text-2xl font-black text-slate-900 dark:text-white">42</span>
+<span class="text-sm text-slate-500 mb-1">Days to English Exam</span>
+</div>
+</div>
+</aside>
+<!-- Main Content Area -->
+<main class="flex-1 p-4 md:p-8 overflow-y-auto">
+<!-- Welcome Section -->
+<div class="mb-8">
+<h1 class="text-3xl font-black text-slate-900 dark:text-white tracking-tight">Welcome back, Alex! 👋</h1>
+<p class="text-slate-500 dark:text-slate-400 mt-1">You've completed 12% more of your syllabus than last week. Keep it up!</p>
+</div>
+<!-- Active Progress Bar -->
+<section class="mb-10 bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-4">
+<div>
+<h3 class="text-lg font-bold text-slate-900 dark:text-white">Currently Learning: Unit 3 Text Analysis</h3>
+<p class="text-sm text-slate-500">Next module: Comparative Essay Structures</p>
+</div>
+<div class="text-right">
+<span class="text-3xl font-black text-primary">65%</span>
+<span class="text-xs font-bold text-slate-400 block uppercase tracking-widest">Complete</span>
+</div>
+</div>
+<div class="w-full bg-slate-100 dark:bg-slate-800 h-3 rounded-full overflow-hidden">
+<div class="bg-primary h-full rounded-full" style="width: 65%;"></div>
+</div>
+</section>
+<div class="grid grid-cols-1 xl:grid-cols-3 gap-8">
+<!-- Left Column: Courses & Downloads -->
+<div class="xl:col-span-2 space-y-8">
+<!-- My Courses -->
+<section>
+<div class="flex items-center justify-between mb-4">
+<h2 class="text-xl font-bold text-slate-900 dark:text-white">My Courses</h2>
+<a class="text-primary text-sm font-semibold hover:underline" href="#">View All</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-4 rounded-2xl hover:border-primary/40 transition-colors group cursor-pointer">
+<div class="h-32 w-full bg-primary/10 rounded-xl mb-4 overflow-hidden relative">
+<div class="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent"></div>
+<span class="material-symbols-outlined absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-primary text-4xl opacity-50">edit_note</span>
+</div>
+<h4 class="font-bold text-slate-900 dark:text-white group-hover:text-primary transition-colors">Mastering the Comparative Essay</h4>
+<p class="text-xs text-slate-500 mt-1">12 Modules • Updated 2 days ago</p>
+</div>
+<div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 p-4 rounded-2xl hover:border-primary/40 transition-colors group cursor-pointer">
+<div class="h-32 w-full bg-slate-100 dark:bg-slate-800 rounded-xl mb-4 overflow-hidden relative">
+<div class="absolute inset-0 bg-gradient-to-br from-slate-400/10 to-transparent"></div>
+<span class="material-symbols-outlined absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-slate-400 text-4xl opacity-50">menu_book</span>
+</div>
+<h4 class="font-bold text-slate-900 dark:text-white group-hover:text-primary transition-colors">Text Response: 'Sunset Boulevard'</h4>
+<p class="text-xs text-slate-500 mt-1">8 Modules • 100% Complete</p>
+</div>
+</div>
+</section>
+<!-- My Downloads -->
+<section>
+<div class="flex items-center justify-between mb-4">
+<h2 class="text-xl font-bold text-slate-900 dark:text-white">My Downloads</h2>
+</div>
+<div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl overflow-hidden shadow-sm">
+<div class="p-4 border-b border-slate-100 dark:border-slate-800 flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="bg-red-50 dark:bg-red-900/20 text-red-600 p-2 rounded-lg">
+<span class="material-symbols-outlined block">picture_as_pdf</span>
+</div>
+<div>
+<p class="text-sm font-bold">2024 Exam Prediction Notes</p>
+<p class="text-xs text-slate-500">Purchased Sep 12, 2024</p>
+</div>
+</div>
+<button class="flex items-center gap-2 text-xs font-bold text-primary bg-primary/10 px-3 py-1.5 rounded-lg hover:bg-primary hover:text-white transition-all">
+<span class="material-symbols-outlined text-sm">download</span>
+                                        Download
+                                    </button>
+</div>
+<div class="p-4 border-b border-slate-100 dark:border-slate-800 flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="bg-blue-50 dark:bg-blue-900/20 text-blue-600 p-2 rounded-lg">
+<span class="material-symbols-outlined block">description</span>
+</div>
+<div>
+<p class="text-sm font-bold">Model Essay Pack - Argument Analysis</p>
+<p class="text-xs text-slate-500">Purchased Aug 30, 2024</p>
+</div>
+</div>
+<button class="flex items-center gap-2 text-xs font-bold text-primary bg-primary/10 px-3 py-1.5 rounded-lg hover:bg-primary hover:text-white transition-all">
+<span class="material-symbols-outlined text-sm">download</span>
+                                        Download
+                                    </button>
+</div>
+</div>
+</section>
+</div>
+<!-- Right Column: Latest Resources Feed -->
+<div class="space-y-6">
+<section class="bg-white dark:bg-slate-900 p-6 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm sticky top-24">
+<h2 class="text-lg font-bold text-slate-900 dark:text-white mb-4 flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">rss_feed</span>
+                                Latest Resources
+                            </h2>
+<div class="space-y-6">
+<div class="relative pl-6 before:absolute before:left-0 before:top-2 before:bottom-0 before:w-0.5 before:bg-slate-100 dark:before:bg-slate-800">
+<div class="absolute left-[-4px] top-1.5 size-2.5 rounded-full bg-primary ring-4 ring-white dark:ring-slate-900"></div>
+<p class="text-xs font-bold text-primary uppercase mb-1">New Video</p>
+<h4 class="text-sm font-bold mb-1">How to structure your Section C conclusion</h4>
+<p class="text-xs text-slate-500">Posted 2 hours ago by Head Tutor</p>
+</div>
+<div class="relative pl-6 before:absolute before:left-0 before:top-2 before:bottom-0 before:w-0.5 before:bg-slate-100 dark:before:bg-slate-800">
+<div class="absolute left-[-4px] top-1.5 size-2.5 rounded-full bg-slate-300 dark:bg-slate-600 ring-4 ring-white dark:ring-slate-900"></div>
+<p class="text-xs font-bold text-slate-500 uppercase mb-1">Article</p>
+<h4 class="text-sm font-bold mb-1">10 Vocabulary words for 'The Women of Troy'</h4>
+<p class="text-xs text-slate-500">Posted yesterday</p>
+</div>
+<div class="relative pl-6">
+<div class="absolute left-[-4px] top-1.5 size-2.5 rounded-full bg-slate-300 dark:bg-slate-600 ring-4 ring-white dark:ring-slate-900"></div>
+<p class="text-xs font-bold text-slate-500 uppercase mb-1">Sample Response</p>
+<h4 class="text-sm font-bold mb-1">High-scoring Comparative SAC Sample</h4>
+<p class="text-xs text-slate-500">Posted 3 days ago</p>
+</div>
+</div>
+<button class="w-full mt-6 py-2.5 text-sm font-bold border-2 border-slate-100 dark:border-slate-800 text-slate-600 dark:text-slate-400 rounded-xl hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors">
+                                View Full Feed
+                            </button>
+</section>
+</div>
+</div>
+</main>
+</div>
+</div>
+</body></html>
